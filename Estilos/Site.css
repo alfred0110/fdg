@@ -426,8 +426,8 @@ input.botonimagenCambioNip:hover, .button:hover{
 	height:500px;
 }
 
-.contenidoLayout div{
-	background-color:red;
+.contenidoLayout>div[id^="pantalla"]{
+	height:500px;
 }
 
 @media screen and (min-width: 800px) {
