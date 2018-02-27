@@ -5,7 +5,7 @@ var Codigo = {
     REQUIERE_CAMBIO_NIP: 11
 };
 
-//Cosntantes
+//Constantes
 var Constantes = (function () {
     _req_contenType = 'application/json; charset=UTF-8';
     _req_Accept = 'application/json; charset=UTF-8';
