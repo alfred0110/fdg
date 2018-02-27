@@ -10,6 +10,7 @@ var Constantes = (function () {
     _req_Accept = 'application/json; charset=UTF-8';
     _timeOut = 20000; // 5 segundos: 5000
     //_server = 'http://www.tkinova.com/demofidegarWS/';
+    
     _server = 'http://192.168.0.128/WAFidegar/WSFidegar.svc/'
     _tiempoPantalla = 3000; // 3 segundos
     _meses = ['-', 'ENERO', 'FEBRERO', 'MARZO', 'ABRIL', 'MAYO', 'JUNIO',
@@ -32,14 +33,14 @@ var Constantes = (function () {
 var Recursos = (function () {
     _url_Login = 'app/login';
     _url_GetPeriodos = 'app/obten-periodos/';
-    _url_Reset = 'app/reset';    
+    _url_Reset = 'app/reset';
     _url_ValidaRespuesta = 'app/valida-respuesta';
     _url_Configuracion = 'app/obten-configuracion';
 
     return {
         getUrl_Login: function () { return _url_Login; },
         getUrl_GetPeriodos: function () { return _url_GetPeriodos; },
-        getUrl_Reset: function () { return _url_Reset; },        
+        getUrl_Reset: function () { return _url_Reset; },
         getUrl_ValidaRespuesta: function () { return _url_ValidaRespuesta; },
         getUrl_Configuracion: function () { return _url_Configuracion; }
     };
@@ -60,7 +61,7 @@ var Data = (function () {
         getMatricula: function () { return _matricula; },
         getToken: function () { return _token; },
         getPreguntaId: function () { return _pregundaId; },
-        getRespuesta: function () { return _respuesta; }        
+        getRespuesta: function () { return _respuesta; }
     };
 });
 
