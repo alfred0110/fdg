@@ -5,12 +5,13 @@ var Codigo = {
     REQUIERE_CAMBIO_NIP: 11
 };
 
+//Cosntantes
 var Constantes = (function () {
     _req_contenType = 'application/json; charset=UTF-8';
     _req_Accept = 'application/json; charset=UTF-8';
     _timeOut = 20000; // 5 segundos: 5000
     //_server = 'http://www.tkinova.com/demofidegarWS/';
-    
+
     _server = 'http://192.168.0.128/WAFidegar/WSFidegar.svc/'
     _tiempoPantalla = 3000; // 3 segundos
     _meses = ['-', 'ENERO', 'FEBRERO', 'MARZO', 'ABRIL', 'MAYO', 'JUNIO',
