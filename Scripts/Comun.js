@@ -65,7 +65,9 @@ function mostrarPantalla(pantalla) {
 
     if (pantalla == "Pantalla_Inicio") {        
         $("#btnHome").hide();
-        $("#btnAvisoPrivacidad").show();        
+        $("#btnAvisoPrivacidad").show();   
+		$("#divFooter").show();
+
     }
     else
         $("#btnAvisoPrivacidad").hide();
@@ -83,7 +85,7 @@ function limpiarData() {
     oDatos = Data();
     $("input[type='text']").val('');
     $("input[type='password']").val('');
-    $("#tablePeriodos").empty().html("<thead><tr><th>Mes</th><th>Clave</th><th>Imprimir</th></tr></thead>");
+    $("#tablePeriodos").empty().html("<thead><tr><th class='Letratabla'>Mes</th><th class='Letratabla'>Clave</th><th class='Letratabla'>Imprimir</th></tr></thead>");
 }
 
 function mostrarProgreso(mensaje) {
@@ -119,7 +121,7 @@ function mostrarError(mensaje, mostrarBotones) {
 
     if (mostrarBotones) {
         var footer =
-                    '<div class="modal-footer">' +
+                    '<div>' +
                         '<button id="btnAceptar" class="btn btn-primary" type="button" onclick="guardar()">ACEPTAR</button>' +
                         '<button id="btnCancelar" class="btn btn-primary" type="button" onclick="cancelar()">CANCELAR</button>' +
                     '</div>';
@@ -131,8 +133,6 @@ function mostrarError(mensaje) {
     $('#modalAvisoSpan').html(mensaje);
     $('#modalAviso').modal('show');
 }
-
-
 
 function getDate() {
     var date = new Date();

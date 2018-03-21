@@ -23,7 +23,7 @@ $(document).ready(function () {
         requestFidegar(urlConfiguracion, "GET", null, function (respuesta) {
 			
             mostrarPantalla("Pantalla_Inicio"); //Mostrar pantalla Fuera de Servicio 
-			$("#divFooter").show();	
+			$("divFooter").show();	
             var cadHtml = '';
             if (oConfig.getMac() == "") {
 				
@@ -62,7 +62,8 @@ $(document).ready(function () {
         if (oConstantes.getPantallaActual() == "Pantalla_Inicio") {            
             if (typeof (Fidegar) !== "undefined")
                 Fidegar.reiniciarApp(oConstantes.getPantallaActual());
-        }                        
+        }  
+	 $("#divFooter").show();			
     }
 
     $(".btnHelp").click(function () {
@@ -85,7 +86,7 @@ $(document).ready(function () {
     $("#Pantalla_Inicio").click(function (e) {
         if (typeof (Fidegar) !== "undefined") {
             if (!Fidegar.puedoImprimir())
-                mostrarError("-POR EL MOMENTO NO PUEDO ENTREGAR TICKET");
+                mostrarError("-POR EL MOMENTO NO PUEDO ENTREGAR COMPROBANTE");
         } 
         mostrarPantalla("Pantalla_Menu");
 		$("#divFooter").show();	
@@ -211,8 +212,12 @@ $(document).ready(function () {
                     case "pantalla_nuevoNip":
                         switch (accion) {
                             case "ok":
-                                if (validarControl("#txtCambioNipDosNip", "NUEVO NIP REQUERIDO") && 
-                                    validarControl("#txtCambioNipDosNuevoNip", "CONFIRME NUEVO NIP REQUERIDO")) {
+                                if (validarControl("#txtCambioNipDosNip", "EL NIP/C\u00d3DIGO DE SEGURIDAD" + " " +
+																	   "INGRESADO NO COINCIDE," + " " +
+																	   "<p class='subtitulo'>favor de ingresarlo nuevamente</p>") && 
+                                    validarControl("#txtCambioNipDosNuevoNip", "EL NIP/C\u00d3DIGO DE SEGURIDAD" + " " +
+																	   "INGRESADO NO COINCIDE," + " " +
+																	   "<p class='subtitulo'>favor de ingresarlo nuevamente</p>")) {
 
                                     if (validarControlesIguales("#txtCambioNipDosNip", "#txtCambioNipDosNuevoNip", "LOS DOS NIP DEBEN SER IGUALES")){
 
@@ -246,7 +251,8 @@ $(document).ready(function () {
     function mostrarDespedida() {
         limpiarData();
         mostrarPantalla("Pantalla_Gracias");        
-        window.setTimeout(mostrarMenu, oConstantes.getTiempoPantalla());                
+        window.setTimeout(mostrarMenu, oConstantes.getTiempoPantalla());
+		
     }
             
     function ocultar() {
@@ -265,8 +271,7 @@ $(document).ready(function () {
 
     function procesarResponse(response, flujo) {
         switch (flujo) {
-            case "pantalla_claveRetiro":
-                debugger;                
+            case "pantalla_claveRetiro":       
                 switch (response.code) {
                     case Codigo.ERROR:						
                         mostrarPantalla("Pantalla_ClaveRetiro");
@@ -302,7 +307,7 @@ $(document).ready(function () {
                     if (response.objetoRespuesta == null)
                         mostrarError("NO CUENTA CON PERIODOS", false);
 
-                    var cadenaHtml = "<thead class='spanTr1'><tr><th>Mes:</th><th>Clave:</th><th>Imprimir:</th></tr></thead>";
+                    var cadenaHtml = "<thead class='spanTr1'><tr><th class='Letratabla'>Mes</th><th class='Letratabla'>Clave</th><th class='Letratabla'>Imprimir</th></tr></thead>";
 					
                     if (response.objetoRespuesta.length == 0)
                         cadenaHtml += "<tr><td colspan='3'>Sin Registros</td></tr></tbody>";
@@ -358,7 +363,7 @@ $(document).ready(function () {
                     case Codigo.EXITO:
                         if (typeof (Fidegar) !== "undefined")
                             Fidegar.Imprimir(2, oDatos.getMatricula(), "", "", getDate(), oConfig.getId(), oConfig.getDireccion());                        
-                        mostrarProgreso("<br/> Imprimiendo su comprobante...");
+                        mostrarProgreso("Imprimiendo su comprobante...");
                         window.setTimeout(mostrarDespedida, oConstantes.getTiempoPantalla());
                         break;
                     default:
@@ -381,6 +386,5 @@ $(document).ready(function () {
 			
 			}
 		}		
-	});
-	
+	});	
 });

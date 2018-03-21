@@ -3,7 +3,7 @@
 <head>
     <title></title>
     <meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width,height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta name="viewport" content="width=device-width,height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" >
 
 	<script src="Scripts/jquery-1.10.2.min.js"></script>
     <script src="Scripts/Modelo.js"></script>
@@ -21,332 +21,332 @@
   <div id="divHeader" style="display:inline-table; width:100%">
 		<center>
 			<div class="row">
-				<div class="col-md-12 text-center">
-					<div class="col-md-10">
+				<div class="col-md-12 text-center">					
 						<div class="col-md-4"></div>
-						<div class="col-md-7" >
+						<div class="col-md-4" >
 							<div style="width:100%">
-							         <a href="#"><img src="Imagenes/pleca_logos.png" style=" height: 70px; margin-top: 15px;"/></a>
+							         <a href="#"><img src="Imagenes/pleca_logos.png" class="imaheader"/></a>
 							</div>
 						</div>
-						<div class="col-md-4"></div>
-					</div>
+						<div class="col-md-4"></div>					
 				</div>
 			</div>
 		</center>
   </div>
 
-	<div id="divBarra" style="padding:.40em;background-color:#FF149B;margin-top:15px;width:100%;"> </div>  
-    <div id="divContent" class="contenidoLayout container-fluid body-content">
-        <div id="Pantalla_Inicio">
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <span class="spanTitulo center">¡BIENVENID@!</span>
-                    <br />
-                    <span class="spanTexto center">
-                        Te presentamos el nuevo sistema de Prepa Sí, a través del cual puedes <br/>
-						generar tu clave de retiro y obtener tu estímulo.
-                    </span>
-                    <br />
-					<div class="col-md-10">
-						<div class="col-md-4"></div>
-						<div class="col-md-7">
-						<center>
-							<table class="tablaletra">
-							 <tr>
-							   <td><img src="Imagenes/check.png" style=" height: 70px; margin-top: 15px;"/></th>
-							   <td>Más sencillo</th>
-							   <td><img src="Imagenes/check.png" style=" height: 70px; margin-top: 15px;"/></th>
-							   <td>Más seguro</th>
-							 </tr>
-							 <tr>
-							   <td><img src="Imagenes/check.png" style=" height: 70px; margin-top: 15px;"/></th>
-							   <td>Sin tarjeta <br/>ni reposiciones</th>
-							   <td><img src="Imagenes/check.png" style=" height: 70px; margin-top: 15px;"/></th>
-							   <td>Amigable <br/> con el medio ambiente	</th>
-							 </tr>
-							</table>
-						</center>
-						</div>
-						<div class="col-md-4"></div>
-					</div>
-				   </div>
-            </div>
-        </div>
+  <div id="divBarra" class="divbarra">
+  </div>
 
-        <div id="Pantalla_FueraServicio" class="ocultar">
+<div id="divContent"  class="contenidoLayout container-fluid body-content">
+            <div  id="Pantalla_Inicio">
             <div class="row">
-                <div class="col-md-12 col-xs-12 col-sm-12 text-center">
-                    <img src="Imagenes/FueraServicio.png" />
-                    <br />
-                    <span class="spanTitulo">TEMPORALMENTE FUERA DE SERVICIO</span>
-                </div>
-            </div>
-        </div>
-
-        <div id="Pantalla_Menu" class="ocultar" style="height:500px;">
-            <div class="row">
-                <div class="col-md-12  text-center">
-                    <h2 class="subtit">Seleccione la opción <br/>
-					deseada</h2>
-                    <br />
-                    <input id="opMenu_Retiro" type="button" class="botonimagenCons btn ctrlmenu " value="" />
-                    <br /><br />
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <input id="opMenu_CambioNip" type="button" class="botonimagenCambioNip ctrlmenu btn " value="" />
-                    <br /><br />
-                </div>
-            </div>
-			<div class="row">
-                <div class="col-md-12 text-center">
-                    <!---<input id="opMenu_Imprimir"  onClick="Fidegar.cambiaTipoTeclado(4)" type="button"  class="ctrlmenu btn btn-default" value="Imprimir Test" />-->
-                </div>
-            </div>
-        </div>
-
-        <div id="Pantalla_ClaveRetiro" class="ocultar" style="height:500px;">
-            <div class="row">
-                <div class="col-xs-12 col-md-12 text-center" >
-				   <div class="col-xs-3 col-md-4"></div>
-					  <div class="col-xs-6 col-md-4">
-						<h2 class="subtit text1">Clave de retiro</h2>
-						<br />
-						<h3 class="textcaja">Ingresa tu matrícula PS</h3>
-						<center>
-							<input id="txtClaveRetiro_Matricula" type="text" class="form-control inputX cajatext" maxlength="18"  value="" onfocus="Fidegar.cambiaTipoTeclado(3)" />
-						</center>
-						<h3 class="textcaja">Ingresa tu NIP</h3>
-						<center>
-							<input id="txtClaveRetiro_Nip" type="password" class="form-control inputX ultimo cajatext" maxlength="4"   value="" onfocus="Fidegar.cambiaTipoTeclado(2)" />
-						</center>
-						<br />
-					</div>
-					<div class="col-xs-2 col-md-4"></div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xs-12 col-md-12 text-center">
-					<div class="col-xs-2 col-md-4"></div>
-					<div class="col-xs-8 col-md-4">
-						<span class="flujo glyphicon glyphicon-remove-sign spanimaCancel botones botoncancel"  flujo="retiro" pantalla="pantalla_claveRetiro" opcion="cancel">&nbsp;</span>
-						&nbsp;&nbsp;
-						<span class="flujo glyphicon glyphicon-ok-sign spanimaAcep botones botonacep"  flujo="retiro" pantalla="pantalla_claveRetiro" opcion="ok">&nbsp;</span>
-						</div>
-					<div class="col-xs-2 col-md-4"></div>
-                </div>
-            </div>
-        </div>
-
-        <div id="Pantalla_Periodo" class="ocultar" style="height:500px;">
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <h2 class="subtit">Seleccione el período <br/>
-										   deseado</h2>
-                    <br />
-                    <div class="table-responsive">
-                        <table id="tablePeriodos" class="table table-striped table-hover table-bordered table-condensed">
-                            <thead>
-                                <tr>
-                                    <th class="subtit">Mes</th>
-                                    <th class="subtit">Clave</th>
-                                    <th class="subtit"></th>
-                                </tr>
-                            </thead>
-                        </table>
-                    </div>
-                    <br />
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <span id="btnPeriodoCancel" class="flujo glyphicon glyphicon-remove-sign spanimaCancel"  flujo="retiro" pantalla="pantalla_Periodo" opcion="cancel">&nbsp;</span>
-                </div>
-            </div>
-        </div>
-
-        <div id="Pantalla_Progreso" class="ocultar" style="height:500px;">
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <img src="Imagenes/Reloj.png" />
-                    <br />
-					<br />
-					<br />
-                    <img src="Imagenes/Loading.gif" />
-                    <br />
-                    <span class="spanLoading"></span>
-                </div>
-            </div>
-        </div>
-
-        <div id="Pantalla_CambioNip" class="ocultar" style="height:500px;">
-            <div class="row">
-                <div class="col-xs-12 col-md-12 text-center">
-				  <div class="col-xs-3 col-md-4"></div>
-					<div class="col-xs-6 col-md-4">
-						<h2 class="subtit text1">Cambio de NIP</h2>
-						<br />
-						<h3 class="textcaja">Ingresa tu matrícula PS</h3>
-						<center>
-							<input id="txtCN_Matricula" type="text" class="form-control inputPreguntas cajatext inputX " maxlength="18" onfocus="Fidegar.cambiaTipoTeclado(3)" value="" />
-						</center>
-						<h3 class="textcaja">Ingresa tu NIP</h3>
-						<center>
-							<input id="txtCN_Nip" type="password" class="form-control inputPreguntas cajatext  inputX ultimo " maxlength="4"  onfocus="Fidegar.cambiaTipoTeclado(2)" value="" />
-						</center>
-						<br />
-					</div>
-				  <div class="col-xs-2 col-md-4"></div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xs-12 col-md-12 text-center">
-					<div class="col-xs-2 col-md-4"></div>
-					<div class="col-xs-8 col-md-4">
-						<span id="btnCambioNipCancel" class="flujo glyphicon glyphicon-remove-sign spanimaCancel botones botoncancel" flujo="cambionip" pantalla="pantalla_cambioNip" opcion="cancel" >&nbsp;</span>
-						&nbsp;&nbsp;
-						<span id="btnCambioNipOk" class="flujo glyphicon glyphicon-ok-sign spanimaAcep botones botonacep" flujo="cambionip" pantalla="pantalla_cambioNip" opcion="ok" >&nbsp;</span>
-					</div>
-					<div class="col-xs-2 col-md-4"></div>
-                </div>
-            </div>
-        </div>
-
-        <div id="Pantalla_CambioNipDos" class="ocultar" style="height:500px;">
-            <div class="row">
-                <div class="col-xs-12 col-md-12 text-center">
-					<div class="col-xs-2 col-md-4"></div>
-					<div class="col-xs-8 col-md-4">
-						<h2 class="subtit text1">Confirmación de datos <br/> personales</h2>
-						<br />
-						<h3 class="textcaja">Selecciona tu pregunta secreta</h3>
-						<center>
-							<select id="ddlPreguntas" type="text" class="form-control inputPreguntas"></select>
-						</center>
-						<br />
-						<h3 class="textcaja">Responde tu pregunta secreta</h3>
-						<center>
-							<input id="txtCN_Respuesta" type="text" class="form-control inputPreguntas inputX ultimo cajatext" maxlength="30" opcion="ok" onfocus="Fidegar.cambiaTipoTeclado(1)" value="" />
-						</center>
-						<br />
-					</div>
-				  <div class="col-xs-2 col-md-4"></div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xs-12 col-md-12 text-center">
-					<div class="col-xs-2 col-md-4"></div>
-					<div class="col-xs-8 col-md-4">
-						<span id="btnCNDatosCancel" class="flujo glyphicon glyphicon-remove-sign spanimaCancel botones botoncancel" flujo="cambionip" pantalla="pantalla_CambioNipDos" opcion="cancel">&nbsp;</span>
-						&nbsp;&nbsp;
-						<span id="btnCNDatosPersOk" class="flujo glyphicon glyphicon-ok-sign spanimaAcep botones botonacep" flujo="cambionip" pantalla="pantalla_CambioNipDos" opcion="ok">&nbsp;</span>
-					</div>
-					<div class="col-xs-2 col-md-4"></div>
-                </div>
-            </div>
-        </div>
-
-        <div id="Pantalla_nuevoNip" class="ocultar" style="height:500px;">
-            <div class="row">
-                <div class="col-xs-12 col-md-12 text-center">
-				    <div class="col-xs-2 col-md-4"></div>
-					<div class="col-xs-8 col-md-4">
-						<h2 class="subtit text1">Ingrese su nuevo NIP</h2>
-						<br />
-						<h3 class="textcaja">Ingrese su nuevo NIP </h3>
-						<center>
-							<input id="txtCambioNipDosNip" type="password" class="form-control inputX cajatext" onfocus="Fidegar.cambiaTipoTeclado(2)" maxlength="4" />
-						</center>
-						<h3 class="textcaja">Confirmé su nuevo NIP</h3>
-						<center>
-							<input id="txtCambioNipDosNuevoNip" type="password" class="form-control inputX ultimo cajatext" onfocus="Fidegar.cambiaTipoTeclado(2)" maxlength="4" />
-						</center>
-						<br />
-					</div>
-				  <div class="col-xs-2 col-md-4"></div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xs-12 col-md-12 text-center" style="height:500px;">
-					<div class="col-xs-2 col-md-4"></div>
-					<div class="col-xs-8 col-md-4">
-						<span id="btnCambioNipDosCancel" class="flujo glyphicon glyphicon-remove-sign spanimaCancel botones botoncancel"  flujo="cambionip" pantalla="pantalla_nuevoNip" opcion="cancel">&nbsp;</span>
-						&nbsp;&nbsp;
-						<span id="btnCambioNipDosOk" class="flujo glyphicon glyphicon-ok-sign spanimaAcep botones botonacep"  flujo="cambionip" pantalla="pantalla_nuevoNip" opcion="ok">&nbsp;</span>
-					</div>
-					<div class="col-xs-2 col-md-4"></div>
-				</div>
-            </div>
-        </div>
-
-        <!--<div id="Pantalla_DatosPersonales" class="ocultar">
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <h2>CONFIRMACIÓN DE DATOS PERSONALES</h2>
-                    <br />
-                    <h3>Nombre:</h3>
-                    <center>
-                        <input id="txtDatosPersonalesNombre" type="text" class="form-control" maxlength="50" />
-                    </center>
-                    <h3>Preparatoria:</h3>
-                    <center>
-                        <input id="txtDatosPersonalesPreparatoria" type="text" class="form-control" maxlength="50" />
-                    </center>
-                    <h3>Grado:</h3>
-                    <center>
-                        <input id="txtDatosPersonalesGrado" type="text" class="form-control" maxlength="30" />
-                    </center>
-                    <h3>Número de celular:</h3>
-                    <center>
-                        <input id="txtDatosPersonalesCelular" type="text" class="form-control" maxlength="15" />
-                    </center>
-                    <br />
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <span id="spanDatosPersonalesOk" class="flujo glyphicon glyphicon-ok-sign" flujo="cambionip" pantalla="pantalla_datosPersonales" opcion="ok"></span>
-                    &nbsp;&nbsp;
-                    <span id="spanDatosPersonalesCancel" class="flujo glyphicon glyphicon-remove-sign" flujo="cambionip" pantalla="pantalla_datosPersonales" opcion="cancel"></span>
-                </div>
-            </div>
-        </div>-->
-
-        <div id="Pantalla_Gracias" class="flujo ocultar" flujo="despedida" style="height:500px;">
-
-		<div id="divFooter" class="navbar navbar-default navbar-fixed-bottom ocultar">
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <img src="Imagenes/Gracias.png" style="width:50%;height:50%;" />
-                    <br />
-                    <!--<span class="spanTitulo">¡GRACIAS!</span>-->
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-12 text-center" style="margin-top: 65px;">
-                    <div class="pull-left" >
-                        <input id="btnDirectorio" type="button" class="btnHelp botonimagen"/>
-                    </div>
-                    <span id="btnHome" class="btnHelp glyphicon glyphicon-home">&nbsp;</span>
-                    <span id="btnAvisoPrivacidad" class="btnHelp glyphicon glyphicon-lock">&nbsp;</span>
-                    <div class="pull-right">
-                        <input id="btnAyuda" type="button" class="btnHelp botonimagen1" />
+                <div  class="col-md-12 text-center">
+                        <span class="spanTitulo center">¡BIENVENID@!</span>
                         <br />
-						<br />
-						<!--<span class="spanVersion">V1.1</span>-->
-                    </div>
-                </div>
-            </div>
+                        <span class="spanTexto center">
+                            Te presentamos el nuevo sistema de Prepa Sí, a través del cual puedes <br/>
+    						generar tu clave de retiro y obtener tu estímulo.
+                        </span>
+                        <br />
+      					  <center>
+      							<table class="tablaletra">
+      							 <tr>
+      							   <td><img src="Imagenes/check.png" class="imacirpalomita"/></td>
+      							   <td>Más sencillo</td>
+      							   <td><img src="Imagenes/check.png" class="imacirpalomita"/></td>
+      							   <td>Más seguro</td>
+      							 </tr>
+      							 <tr>
+      							   <td><img src="Imagenes/check.png" class="imacirpalomita"/></td>
+      							   <td>Sin tarjeta <br/>ni reposiciones</td>
+      							   <td><img src="Imagenes/check.png" class="imacirpalomita"/></td>
+      							   <td>Amigable <br/> con el medio ambiente	</td>
+      							 </tr>
+								 <tr>
+      							   <td colspan="4" class="homeContinuar">CONTINUAR</td>
+      							 </tr>
+      							</table>
+      						</center>
+    				   </div>
+          </div>
+		  <div id="altura"> </div>
         </div>
-    </div>
+    
+			<div id="Pantalla_FueraServicio" class="ocultar">
+				<div class="row">
+					<div class="col-md-12 col-xs-12 col-sm-12 text-center">
+						<img src="Imagenes/FueraServicio.png" />
+						<br />
+						<span class="spanTitulo">TEMPORALMENTE FUERA DE SERVICIO</span>
+					</div>
+				</div>
+			</div>
 
+			<div  id="Pantalla_Menu" class="ocultar" >
+				<div class="row">
+					<div class="col-md-12  text-center">
+						<h2 class="subtit">Seleccione la opción <br/> deseada</h2>
+						<br />
+						<input id="opMenu_Retiro" type="button" class="botonimagenCons btn ctrlmenu " value="" />
+						<br /><br />
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12 text-center">
+						<input id="opMenu_CambioNip" type="button" class="botonimagenCambioNip ctrlmenu btn " value="" />
+						<br /><br />
+					</div>
+				</div>
+					 <div class="row">
+					<div class="col-md-12 text-center">
+						<!---<input id="opMenu_Imprimir"  onClick="Fidegar.cambiaTipoTeclado(4)" type="button"  class="ctrlmenu btn btn-default" value="Imprimir Test" />-->
+					</div>
+				</div>
+				<div id="altura1"> </div>
+			</div>
+
+			<div id="Pantalla_ClaveRetiro" class="ocultar" >
+				<div class="row">
+					<div  class="col-xs-12 col-md-12 text-center" >
+					   <div class="col-xs-1 col-md-4"></div>
+						  <div class="col-xs-10 col-md-4">
+							<h2 class="subtit text1">Clave de retiro</h2>
+							<br />
+							<h3 class="textcaja">Ingresa tu matrícula PS</h3>
+							<center>
+								<input id="txtClaveRetiro_Matricula" type="text" class="form-control inputX cajatext" maxlength="18"  value="" onfocus="Fidegar.cambiaTipoTeclado(3)" />
+							</center>
+							<h3 class="textcaja">Ingresa tu NIP</h3>
+							<center>
+								<input id="txtClaveRetiro_Nip" type="password" class="form-control inputX ultimo cajatext" maxlength="4"   value="" onfocus="Fidegar.cambiaTipoTeclado(2)" />
+							</center>
+							<br />
+						</div>
+						<div class="col-xs-1 col-md-4"></div>
+					</div>
+				</div>				
+					<div class="row">
+						<div class="col-xs-12 col-md-12 text-center">
+							<div class="col-xs-1 col-md-4"></div>
+							<div class="col-xs-10 col-md-4">
+								<span class="flujo glyphicon glyphicon-remove-sign spanimaCancel botones botoncancel"  flujo="retiro" pantalla="pantalla_claveRetiro" opcion="cancel"><p class="pbtncolorCan">CANCELAR</p></span>
+								&nbsp;&nbsp;
+								<span class="flujo glyphicon glyphicon-ok-sign spanimaAcep botones botonacep"  flujo="retiro" pantalla="pantalla_claveRetiro" opcion="ok"><p class="pbtncolorAc">ACEPTAR</p></span>
+								</div>
+							<div class="col-xs-1 col-md-4"></div>
+						</div>
+					</div>				
+			</div>
+
+			<div id="Pantalla_Periodo" class="ocultar" >
+				<div class="row">
+					<div  class="col-md-12 text-center">
+						<h2 class="subtit">Seleccione el período</h2>
+						<br />
+						<div class="table-responsive">
+							<table id="tablePeriodos" class="table table-striped table-hover table-bordered table-condensed">
+								<thead>
+									<tr>
+										<th class="subtit">Mes</th>
+										<th class="subtit">Clave</th>
+										<th class="subtit"></th>
+									</tr>
+								</thead>
+							</table>
+						</div>
+						<br />
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12 text-center">
+						<span id="btnPeriodoCancel" class="flujo glyphicon glyphicon-remove-sign spanimaCancel"  flujo="retiro" pantalla="pantalla_Periodo" opcion="cancel"><p class="pbtncolorCan">CANCELAR</p></span>
+					</div>
+				</div>
+			</div>
+
+			<div id="Pantalla_Progreso" class="ocultar" >
+				<div class="row">
+					<div class="col-md-12 text-center">
+						<img src="Imagenes/Reloj.png" class="Reloj"/>
+						<br />
+						<br />
+						<br />
+						<img src="Imagenes/Loading.gif" class="Load" />
+						<br />
+						<span class="spanLoading"></span>
+					</div>
+				</div>
+			</div>
+
+			<div id="Pantalla_CambioNip" class="ocultar" >
+				<div class="row">
+					<div class="col-xs-12 col-md-12 text-center">
+					  <div class="col-xs-1 col-md-4"></div>
+						<div class="col-xs-10 col-md-4">
+							<h2 class="subtit text1">Cambio de NIP</h2>
+							<br />
+							<h3 class="textcaja">Ingresa tu matrícula PS</h3>
+							<center>
+								<input id="txtCN_Matricula" type="text" class="form-control  cajatext inputX " maxlength="18" onfocus="Fidegar.cambiaTipoTeclado(3)" value="" />
+							</center>
+							<h3 class="textcaja">Ingresa tu NIP</h3>
+							<center>
+								<input id="txtCN_Nip" type="password" class="form-control   cajatext  inputX ultimo " maxlength="4"  onfocus="Fidegar.cambiaTipoTeclado(2)" value="" />
+							</center>
+							<br />
+						</div>
+					  <div class="col-xs-1 col-md-4"></div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-12 col-md-12 text-center">
+						<div class="col-xs-1 col-md-4"></div>
+						<div class="col-xs-10 col-md-4">
+							<span id="btnCambioNipCancel" class="flujo glyphicon glyphicon-remove-sign spanimaCancel botones botoncancel" flujo="cambionip" pantalla="pantalla_cambioNip" opcion="cancel" ><p class="pbtncolorCan">CANCELAR</p></span>
+							&nbsp;&nbsp;
+							<span id="btnCambioNipOk" class="flujo glyphicon glyphicon-ok-sign spanimaAcep botones botonacep" flujo="cambionip" pantalla="pantalla_cambioNip" opcion="ok" ><p class="pbtncolorAc">ACEPTAR</p></span>
+						</div>
+						<div class="col-xs-1 col-md-4"></div>
+					</div>
+				</div>
+			</div>
+
+			<div id="Pantalla_CambioNipDos" class="ocultar">
+				<div class="row">
+					<div class="col-xs-12 col-md-12 text-center">
+						<div class="col-xs-1 col-md-4"></div>
+						<div class="col-xs-10 col-md-4">
+							<h2 class="subtit text1">Confirmación de datos <br/> personales</h2>
+							<br />
+							<h3 class="textcaja">Selecciona tu pregunta secreta</h3>
+							<center>
+								<select id="ddlPreguntas" type="text" class="form-control inputPreguntas"></select>
+							</center>
+							<br />
+							<h3 class="textcaja">Responde tu pregunta secreta</h3>
+							<center>
+								<input id="txtCN_Respuesta" type="text" class="form-control inputPreguntas inputX ultimo cajatext" maxlength="30" opcion="ok" onfocus="Fidegar.cambiaTipoTeclado(1)" value="" />
+							</center>
+							<br />
+						</div>
+					  <div class="col-xs-1 col-md-4"></div>
+					</div>
+				</div>
+				<div style="height:550px;" class="row">
+					<div class="col-xs-12 col-md-12 text-center">
+						<div class="col-xs-1 col-md-4"></div>
+						<div class="col-xs-10 col-md-4">
+							<span id="btnCNDatosCancel" class="flujo glyphicon glyphicon-remove-sign spanimaCancel botones botoncancel" flujo="cambionip" pantalla="pantalla_CambioNipDos" opcion="cancel"><p class="pbtncolorCan">CANCELAR</p></span>
+							&nbsp;&nbsp;
+							<span id="btnCNDatosPersOk" class="flujo glyphicon glyphicon-ok-sign spanimaAcep botones botonacep" flujo="cambionip" pantalla="pantalla_CambioNipDos" opcion="ok"><p class="pbtncolorAc">ACEPTAR</p></span>
+						</div>
+						<div class="col-xs-1 col-md-4"></div>
+					</div>
+				</div>
+			</div>
+
+			<div id="Pantalla_nuevoNip" class="ocultar" >
+				<div class="row">
+					<div class="col-xs-12 col-md-12 text-center">
+						<div class="col-xs-1 col-md-4"></div>
+						<div class="col-xs-10 col-md-4">
+							<h2 class="subtit text1">Ingrese su nuevo NIP</h2>
+							<br />
+							<h3 class="textcaja">Ingrese su nuevo NIP </h3>
+							<center>
+								<input id="txtCambioNipDosNip" type="password" class="form-control inputX cajatext" onfocus="Fidegar.cambiaTipoTeclado(2)" maxlength="4" />
+							</center>
+							<h3 class="textcaja">Confirmé su nuevo NIP</h3>
+							<center>
+								<input id="txtCambioNipDosNuevoNip" type="password" class="form-control inputX ultimo cajatext" onfocus="Fidegar.cambiaTipoTeclado(2)" maxlength="4" />
+							</center>
+							<br />
+						</div>
+					  <div class="col-xs-1 col-md-4"></div>
+					</div>
+				</div>
+				<center>
+				<div class="row">
+					<div class="col-xs-12 col-md-12 text-center" style="height:500px;">
+								<div class="col-xs-1 col-md-4"></div>
+								<div class="col-xs-10 col-md-4">
+									<span id="btnCambioNipDosCancel" class="flujo glyphicon glyphicon-remove-sign spanimaCancel botones botoncancel"  flujo="cambionip" pantalla="pantalla_nuevoNip" opcion="cancel"><p class="pbtncolorCan">CANCELAR</p></span>
+									&nbsp;&nbsp;
+									<span id="btnCambioNipDosOk" class="flujo glyphicon glyphicon-ok-sign spanimaAcep botones botonacep"  flujo="cambionip" pantalla="pantalla_nuevoNip" opcion="ok"><p class="pbtncolorAc">ACEPTAR</p></span>
+								</div>
+								<div class="col-xs-1 col-md-4"></div>
+							</div>
+				</div>
+				</center>
+			</div>
+
+			<!--<div id="Pantalla_DatosPersonales" class="ocultar">
+				<div class="row">
+					<div class="col-md-12 text-center">
+						<h2>CONFIRMACIÓN DE DATOS PERSONALES</h2>
+						<br />
+						<h3>Nombre:</h3>
+						<center>
+							<input id="txtDatosPersonalesNombre" type="text" class="form-control" maxlength="50" />
+						</center>
+						<h3>Preparatoria:</h3>
+						<center>
+							<input id="txtDatosPersonalesPreparatoria" type="text" class="form-control" maxlength="50" />
+						</center>
+						<h3>Grado:</h3>
+						<center>
+							<input id="txtDatosPersonalesGrado" type="text" class="form-control" maxlength="30" />
+						</center>
+						<h3>Número de celular:</h3>
+						<center>
+							<input id="txtDatosPersonalesCelular" type="text" class="form-control" maxlength="15" />
+						</center>
+						<br />
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12 text-center">
+						<span id="spanDatosPersonalesOk" class="flujo glyphicon glyphicon-ok-sign" flujo="cambionip" pantalla="pantalla_datosPersonales" opcion="ok"></span>
+						&nbsp;&nbsp;
+						<span id="spanDatosPersonalesCancel" class="flujo glyphicon glyphicon-remove-sign" flujo="cambionip" pantalla="pantalla_datosPersonales" opcion="cancel"></span>
+					</div>
+				</div>
+			</div>-->
+
+			<div id="Pantalla_Gracias" class="flujo ocultar" flujo="despedida" >
+			<div class="row">
+					<div class="col-md-12 text-center">
+						<img src="Imagenes/Gracias.png" class="Imagracias" />
+						<br />
+						<!--<span class="spanTitulo">¡GRACIAS!</span>-->
+					</div>
+				</div>
+			</div>
+		
+			<footer id="divFooter" class="navbar navbar-default navbar-fixed-bottom .dft-footer-nav.v2" >
+			<div class="container-fluid dft-footer-nav__content ">
+						<div class="row">
+							<div class="col-xs-12 col-md-12 text-center rowdivfoter">
+								<div class="pull-left" >
+								<button id="btnDirectorio" type="button" class="btnHelp Sinbor botonimagen" style="background-color:#FF149B;"> 
+								<p class="pImagenfotter"> DIRECTORIO </p>
+								</button>							
+								</div>
+								<span id="btnHome" class="btnHelp glyphicon glyphicon-home Sinbor">&nbsp;</span>
+								<span id="btnAvisoPrivacidad" class="btnHelp glyphicon glyphicon-lock ">&nbsp;</span>
+								<div class="pull-right">
+									<button id="btnAyuda" type="button" class="btnHelp botonimagen1 Sinbor">
+										<p class="pImagenfotter1"> INFORMACIÓN </p>
+									</button>
+									<br />
+									<br />
+									  <!--<span class="spanVersion">V1.1</span>-->
+								</div>
+							</div>
+						</div>
+					</div>
+			</footer>
+</div>
     <!-- Modal -->
     <div id="modalDirectorio" class="modal fade" role="dialog">
         <div class="modal-dialog">
@@ -356,7 +356,40 @@
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
                 </div>
                 <div class="modal-body">
-                    <img src="Imagenes/DIRECTORIO.png" style="width:100%!important;border-radius:8px;"/>
+                  <center> 
+				 <div class="divImaDirectorio">
+					  <img src="Imagenes/icono_directorio.png" class="ImaDirectorio" />
+					  <span class="TextoDirectorio">DIRECTORIO</span>
+				  </div>
+						<div>
+							<table>
+							 <tr>
+							   <td><img src="Imagenes/2.png" style=" height: 70px; margin-top: 15px;"/></td>
+							   <td><p class="LetraDrctTitulo">Emilio Girón Sánchez </p> <br/><p class="LetraDrctSubTitulo">Director de Control</p></td>
+							 </tr>
+							 <tr>
+							   <td><img src="Imagenes/3.png" style=" height: 70px; margin-top: 15px;"/></td>
+							   <td><p class="LetraDrctTitulo">Mariana Perla Rojas Martínez </p> <br/><p  class="LetraDrctSubTitulo">Directora Zona Sur</p></td>
+							 </tr>
+							 <tr>
+							   <td><img src="Imagenes/4.png" style=" height: 70px; margin-top: 15px;"/></td>
+							   <td><p class="LetraDrctTitulo">Tomás Tirso Robles Aragón</p><br/><p  class="LetraDrctSubTitulo">Director Zona Norte</p></td>
+							 </tr>
+							 <tr>
+							   <td><img src="Imagenes/5.png" style=" height: 70px; margin-top: 15px;"/></td>
+							   <td><p class="LetraDrctTitulo">Rosalía Tostado Benítez</p><br/><p  class="LetraDrctSubTitulo">Coordinadora de Enlace Interinstitucional</p></td>
+							 </tr>
+							 <tr>
+							   <td><img src="Imagenes/6.png" style=" height: 70px; margin-top: 15px;"/></td>
+							   <td><p class="LetraDrctTitulo">Juan Manuel González Luna </p><br/><p  class="LetraDrctSubTitulo">Subdirector de Control de Entregas e Incidencias</p></td>
+							 </tr>
+							 <tr>
+							   <td><br/></td>
+							   <td><br/></td>
+							 </tr>							 
+							</table>
+						</div>
+					</center>
                 </div>
             </div>
         </div>
@@ -371,15 +404,34 @@
                 </div>
                 <!--<div class="modal-body text-center">-->
 				<div class="modal-body">
-                    <img src="Imagenes/Informacion.png" style="width:100%!important;border-radius:8px;	"/>
+				   <br/>
+                  <center>
+					  <div>
+						  <img src="Imagenes/Informacion.png" class="ImaInfo"/> 
+						  <span class="ImaAyudaInfo" >INFORMACIÓN</span>
+					  </div>
+				  </center>
                 </div>
-                    <!--<p style="padding-top: 50px; padding-bottom: 50px;">
-                        Si tienes alguna duda o aclaración, comunicate al
-                        <span class="spanRemarcar">11021750</span>
-                        o acude a la calle Bucareli No. 134, primer piso, Col. Centro, Del. Cuauhtémoc.
-                        En los horarios de Lunes a Jueves de 9:00 a 18:00 hrs. y Viernes de 9:00 a 15:00 hrs.
-                    </p>-->
-               <!-- </div>-->
+				  <center> <div class="divImaInfo">
+                    <p class="PimaInfo">
+                        Si tienes alguna duda o aclaración,comunícate
+                        al 11021750
+                        o acude a la calle Bucareli N.º 134, primer piso, Col. Centro, Del. Cuauhtémoc.
+                        En los horarios de lunes a jueves de 9:00 a 18:00 h y viernes de 9:00 a 15:00 h
+                    </p>
+                  </div></center>
+				<div class="divImaInformacion">
+					<center> 
+						<table style="width:100%;">
+								 <tr>
+								   <td class="tdImaInformacion" ><img src="Imagenes/Facebook.jpg" class="ImaInfofbTw"/>&nbsp;<span class="textPrepa">/Prepa_Sí</span></td>
+								   <td class="tdImaInformacion" ><img src="Imagenes/Twitter.png" class="ImaInfofbTw"/>&nbsp;<span class="textPrepa">@P_Prepa_Si</span></td>
+								 </tr>													 
+						</table>
+					  </center> 				  
+				  </div>
+			   <br/>
+			   <br/>
             </div>
         </div>
     </div>
