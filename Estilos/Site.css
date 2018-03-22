@@ -12,6 +12,10 @@ textarea {
     max-width: 280px;
 }
 
+.navbar-default{
+  border-color: white !important;
+}
+
 .inputPreguntas {
        max-width: 320px;
 }
@@ -36,25 +40,6 @@ input {
     background-color: blue;
     display: flex;
     flex-direction: column;
-}
-
-#divHeader {
-    /*height: 94px;*/
-   /* background: #e9e1f0;*/ /* Old browsers */
-    /*background: -moz-linear-gradient(top, #e9e1f0 94%, #dddddd 98%); *//* FF3.6-15 */
-	/* background: -webkit-linear-gradient(top, #e9e1f0 94%,#dddddd 98%); *//* Chrome10-25,Safari5.1-6 */
-    /*background: linear-gradient(to bottom, #e9e1f0 94%,#dddddd 98%); *//* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e9e1f0', endColorstr='#dddddd',GradientType=0 );*/ /* IE6-9 */
-}
-
-#divFooter {
-    /*height: 120px;*/
-    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+2,ffe8f2+100 */
-    /* background: #ffffff; *//* Old browsers */
-    /* background: -moz-linear-gradient(top, #ffffff 0%, #ffffff 2%, #ffe8f2 100%);*/ /* FF3.6-15 */
-    /* background: -webkit-linear-gradient(top, #ffffff 0%,#ffffff 2%,#ffe8f2 100%);*/ /* Chrome10-25,Safari5.1-6 */
-    /*background: linear-gradient(to bottom, #ffffff 0%,#ffffff 2%,#ffe8f2 100%);*/ /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffe8f2',GradientType=0 );*/ /* IE6-9 */
 }
 
 .glyphicon.glyphicon-ok-sign {
@@ -196,7 +181,7 @@ td {
  font-size: 26px;
  font-weight:800;
 }
-	
+
 .subtitulo{
     font-family: "HelveticaNeueLTStd-BlkEx.otf" !important;
 	font-weight:normal;
@@ -208,13 +193,13 @@ td {
 }
 
 .PimaInfo{
-	padding-top: 10px; 
+	padding-top: 10px;
 	padding-bottom: 50px;
 	font-weight:300;
 }
 
 .SubtitPimaInfo{
-	padding-top: 10px; 
+	padding-top: 10px;
 	padding-bottom: 50px;
 	font-weight:600;
 }
@@ -239,7 +224,7 @@ td {
 		padding-bottom: 20px;
 		margin-top:-20px;
 	}
-	
+
 	.glyphicon.glyphicon-home {
 		background-image:url(..//Imagenes/home.png);
 		background-repeat:no-repeat;
@@ -247,11 +232,9 @@ td {
 		background-position:center;
 		cursor: pointer;
 		width:60px;
-		height:90px;
-		margin-top:40px;
-		margin-right: -15px;
+		height:70px;
 	}
-	
+
 	.glyphicon.glyphicon-lock {
 		background-image:url(..//Imagenes/home.png);
 		background-repeat:no-repeat;
@@ -259,11 +242,9 @@ td {
 		background-position:center;
 		cursor: pointer;
 		width:60px;
-		height:90px;
-		margin-top:40px;
-		margin-right: -15px;
+		height:70px;
 	}
-	
+
 	.btn-circulo {
     background-image:url(..//Imagenes/imprimir2.png);
     background-repeat:no-repeat;
@@ -282,83 +263,52 @@ td {
     .btn-circulo:active {
 		background-image:url(..//Imagenes/imprimir3.png);
     }
-	
+
 	.spanTitulo {
 		font-size: 40px;
 		color: #FF149B;
 		font-family: "HelveticaNeueLTStd-BlkEx.otf";
 		font-weight:800;
 	}
-	
+
 	.spanTr {
 		font-family: "HelveticaNeueLTStd-BlkEx.otf";
 		font-weight:600;
 		font-size: 14px;
 		color: #FF139B;
 	}
-	
+
 	.spanTr1 {
 	font-family: "HelveticaNeueLTStd-BlkEx.otf";
 	font-weight:800;
 	font-size: 10px;
 	color: black;
 	}
-	
-	.botonimagen{
-		background-image:url(..//Imagenes/icono_directorio.png);
-		background-repeat: no-repeat;
-		height: 35px;
-		width: 100px;
-		background-size: 40px 35px;
-		background-position: left;
-		border-radius: 8px;
-		margin-top: 75px;
-		padding-right: 0px;
-		border-top-width: 100px;
-	}
-	
-	.pImagenfotter{
-		color: white;
-		background-color: black;
-		width: 70px;
-		height: 35px;
-		font-weight: 900;
-		font-size: 10px;
-		margin: -10px;
-		border-radius: 0 8px 8px 0;
-		float: right;
-		padding-top: 12px;
-		font-family: "HelveticaNeueLTStd-BlkEx.otf";
-		padding-right: 0px;
-		
-	}
-	
-	
-	.botonimagen1{
-		  background-image:url(..//Imagenes/Informacion2.png);
-		  background-repeat:no-repeat;
-		  height:35px;
-		  width:100px;
-		  background-size: 30px 35px;
-		  border-radius: 8px;
-		  margin-top:75px;
-		  
-	}
-	
-	.pImagenfotter1{
-		color: white;
-		background-color: black;
-		width: 76px;
-		height: 35px;
-		font-weight: 900;
-		font-size: 10px;
-		margin: -10px;
-		border-radius: 0 8px 8px 0;
-		float: right;
-		padding-top: 12px;
-		font-family: "HelveticaNeueLTStd-BlkEx.otf";
-		}
-	
+
+
+  #divFooter {
+    margin: 5px !important;
+  }
+
+  #divFooter button{
+    height:37px;
+    width:110px;
+    border-radius: 8px;
+    margin-top:20px;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-color: white;
+  }
+
+     .botonimagen{
+        background-image:url(..//Imagenes/bn_Directorio.png);
+    }
+
+    .botonimagen1{
+        background-image:url(..//Imagenes/bn_informacion.png);
+
+    }
+
 	.botonimagenCons{
 		  background-image:url(..//Imagenes/Consulta.png);
 		  background-repeat:no-repeat;
@@ -377,7 +327,7 @@ td {
 	background-position:center;
 
 	}
-	
+
 	.botonimagenCambioNip{
 		  background-image:url(..//Imagenes/CambioNip1.png);
 		  background-repeat:no-repeat;
@@ -402,18 +352,40 @@ td {
 	 font-size: 12px;
 	 font-weight:500;
 	}
-	
+
 	.Icono {
         width:30%;
 		height:30%;
 		margin-left:40%;
     }
-	
+
 	.Textpop {
         text-align:center;
     }
 
-	.spanimaCancel{
+
+    .btns{
+      width: 97px;
+      height: 30px;
+      background-repeat: no-repeat;
+      border: none;
+      border-image-width: 0px;
+      border-radius: 8px 0px 0px 8px;
+      background-size: contain;
+      background-color: white;
+      border-radius: 8px;
+    }
+
+    .btnCancelarImg{
+      background-image:url(..//Imagenes/bn_cancelar1.png);
+
+    }
+
+    .btnAceptarImg{
+      background-image:url(..//Imagenes/bn_Aceptar1.png);
+
+    }
+	/*.spanimaCancel{
 		background-image:url(..//Imagenes/cancelar.png);
 		background-size: 30px 30px;
 		cursor: pointer;
@@ -425,7 +397,7 @@ td {
 		border: none;
 		border-radius: 8px 0px 0px 8px;
 	}
-	
+
 	.pbtncolorCan
 	{
 		color: white;
@@ -439,7 +411,7 @@ td {
 		padding-top: 9px;
 		font-family: "HelveticaNeueLTStd-BlkEx.otf";
 	}
-		
+
 	.spanimaAcep{
 		background-image: url(..//Imagenes/aceptar.png);
 		background-size: 30px 30px;
@@ -452,7 +424,7 @@ td {
 		border: none;
 		border-radius: 8px 0px 0px 8px;
 	}
-	
+
 	.pbtncolorAc{
 		color: white;
 		background-color: black;
@@ -464,25 +436,25 @@ td {
 		border-radius: 0 8px 8px 0;
 		padding-top: 9px;
 		font-family: "HelveticaNeueLTStd-BlkEx.otf";
-	}
-	
+	}*/
+
 	.contenidoLayout{
 		height:10px;
 	}
-	
+
 	.contenidoLayout>div[id^="pantalla"]{
 		height:10px;
 	}
-	
+
 	.text1{
         /*width:70%;
 		font-size:30px;
 		height:40px;*/
 		font-size:20px;
 	    text-align:center;
-		
+
     }
-	
+
 	 input[type=text], input[type=password] {
         color: #FF139B;
        /* height: 55px;*/
@@ -492,57 +464,58 @@ td {
         text-align: center;
 		text-transform: uppercase;
     }
-	
+
 	.spanTexto{
 		font-size: 9px;
 		font-family: "HelveticaNeueLTStd-BlkEx.otf";
 		font-weight:800;
     }
-	
+
 	.tablaletra{
 		font-size: 10px;
 		font-family: "HelveticaNeueLTStd-BlkEx.otf";
 		font-weight:900;
 		background-size:1px;
     }
-	
+
 	.imacirpalomita{
 	height: 30px;
 	margin-top: 15px;
 	}
-	
+
 	.divbarra{
 	  padding:.30em;
 	  background-color:#FF149B;
 	  margin-top:5px;
 	  width:100%;
 	}
-	
-	.rowdivfoter,#altura{
-		margin-top: 10px;
-	}
-	
-	.rowdivfoter,#altura1{
-		margin-top: 25px;
-	}
-	
+
+  .rowdivfoter, #altura1 {
+    position: absolute;
+    bottom: -450px;
+}
+.rowdivfoter, #altura {
+    margin-top: -90px;
+    position: absolute;
+    bottom: -250px;
+}
 
 	.imaheader{
 			 height: 40px;
 			 margin-top: 10px;
 			 width:60%;
 	}
-	
+
 	.Imagracias{
 			width:80%;
 			height:80%;
 			margin-top:80px;
 	}
-	
+
 	.Load{
 	width:50%;
 	}
-	
+
 	.Reloj{
 		width:20%;
 	}
@@ -553,7 +526,7 @@ td {
 	 font-weight: bold;
 	 margin:22px;
 	 margin-top:-20px;
-	}	
+	}
 
 	p {
 		font-style: normal;
@@ -572,7 +545,7 @@ td {
 		font-weight:500;
 		font-size: 12px;
 		color: black;
-	}	
+	}
 
 	.Letratabla{
 	 font-size:16px;
@@ -582,7 +555,7 @@ td {
 		font-size:16px;
 		font-weight:900;
 	}
-	
+
 	.LetraDrctSubTitulo{
 		font-size:10px
 	}
@@ -590,12 +563,12 @@ td {
 	.dft-footer-nav.v2{
 		position: relative;
 	}
-	
+
 	.dft-footer-nav__content {
 		/*max-width: 65vw;*/
 		margin: 0 auto ;
 	}
-	
+
 	.homeContinuar{
 		text-align:center;
 		font-weight:900;
@@ -609,13 +582,13 @@ td {
 		width:100%;
 		height:80px;
 	}
-	
+
 	.ImaDirectorio{
 		width:20%!important;
 		margin-top:15px;
 		vertical-align:text-bottom;
 	}
-	
+
 	.TextoDirectorio{
 		color:white;
 		font-weight:900;
@@ -627,28 +600,28 @@ td {
 		width:100%;
 		height:50px;
 	}
-	
+
 	.tdImaInformacion{
 		width:50%;
 		text-align:center;
 		height: 50px;
 	}
-	
+
 	.ImaInfofbTw{
 		width:15%!important;
 		border-radius: 4px;
 	}
-	
+
 	.textPrepa{
 		text-align:center;
 		color:white;
 	}
-	
+
 	.ImaInfo{
 	width:15%!important;
 	vertical-align: bottom;
 	}
-	
+
 	.ImaAyudaInfo{
 	color:#FF139B;
 	font-size:25px;
@@ -668,7 +641,7 @@ td {
 		padding-bottom: 20px;
 		margin-top:-20px;
 	}
-	
+
 	.glyphicon.glyphicon-home {
 		background-image:url(..//Imagenes/home.png);
 		background-repeat:no-repeat;
@@ -677,20 +650,19 @@ td {
 		cursor: pointer;
 		width:100px;
 		height:100px;
-		margin-top:40px;
+
 	}
-	
+
 	.glyphicon.glyphicon-lock {
     background-image:url(..//Imagenes/home.png);
     background-repeat:no-repeat;
     background-size: 60px 45px;
     background-position:center;
     cursor: pointer;
-	width:100px;
-	height:100px;
-	margin-top:40px;
+	  width:100px;
+	  height:100px;
 	}
-	
+
 	.btn-circulo {
     background-image:url(..//Imagenes/imprimir2.png);
     background-repeat:no-repeat;
@@ -709,92 +681,52 @@ td {
     .btn-circulo:active {
 		background-image:url(..//Imagenes/imprimir3.png);
     }
-	
+
 	.spanTitulo {
 		font-size: 40px;
 		color: #FF149B;
 		font-family: "HelveticaNeueLTStd-BlkEx.otf";
 		font-weight:800;
 	}
-	
+
 	.spanTr {
 		font-family: "HelveticaNeueLTStd-BlkEx.otf";
 		font-weight:600;
 		font-size: 14px;
 		color: #FF139B;
 	}
-	
-	.spanTr1 {
+
+	.spanTr1   {
 	font-family: "HelveticaNeueLTStd-BlkEx.otf";
 	font-weight:800;
 	font-size: 10px;
 	color: black;
 	}
-	
-	.botonimagen{
-	  background-image:url(..//Imagenes/Director.png);
-	  background-repeat:no-repeat;
-	  height:35px;
-	  width:100px;
-	  background-size: 101px 35px;
-	  background-position:center;
-	  border-radius: 8px;
-	  margin-top:75px;
-	}
-	
-	.botonimagen{
-		background-image:url(..//Imagenes/icono_directorio.png);
-		background-repeat: no-repeat;
-		height: 35px;
-		width: 110px;
-		background-size: 40px 35px;
-		background-position: left;
-		border-radius: 8px;
-		margin-top: 75px;
-		padding-right: 0px;
-	}
-	
-    .botonimagen{
-		background-image:url(..//Imagenes/icono_directorio.png);
-		background-repeat: no-repeat;
-		height: 35px;
-		width: 100px;
-		background-size: 40px 35px;
-		background-position: left;
-		border-radius: 8px;
-		margin-top: 75px;
-		padding-right: 0px;
-		border-top-width: 100px;
-	}
-	
-	.pImagenfotter{
-		color: white;
-		background-color: black;
-		width: 70px;
-		height: 35px;
-		font-weight: 900;
-		font-size: 10px;
-		margin: -10px;
-		border-radius: 0 8px 8px 0;
-		float: right;
-		padding-top: 12px;
-		font-family: "HelveticaNeueLTStd-BlkEx.otf";
-		padding-right: 0px;
-		
-	}
 
-	.botonimagen1{
-		  background-image:url(..//Imagenes/Informacion2.png);
-		  background-repeat:no-repeat;
-		  height:35px;
-		  width:100px;
-		  background-size: 30px 35px;
-		  border-radius: 8px;
-		  margin-top:75px;
-		  
-	}
-	
-	.pImagenfotter1{
+	.#divFooter {
+    margin: 5px !important;
+  }
+
+  #divFooter button{
+    height: 40px;
+    width: 120px;
+    border-radius: 8px;
+    margin-top:20px;
+    background-repeat:no-repeat;
+    background-size: cover;
+  }
+
+  .botonimagen{
+  		  background-image:url(..//Imagenes/bn_Directorio.png);
+  }
+
+  .botonimagen1{
+  		  background-image:url(..//Imagenes/bn_informacion.png);
+
+  }
+
+
+/*	.pImagenfotter1{
 		color: white;
 		background-color: black;
 		width: 76px;
@@ -806,8 +738,8 @@ td {
 		float: right;
 		padding-top: 12px;
 		font-family: "HelveticaNeueLTStd-BlkEx.otf";
-		}
-	
+	}*/
+
 	input.botonimagenCons:hover, .button:hover{
 	background-image:url(..//Imagenes/Consulta1.png);
 	background-repeat:no-repeat;
@@ -817,7 +749,7 @@ td {
 	background-position:center;
 
 	}
-	
+
 	.botonimagenCambioNip{
 		  background-image:url(..//Imagenes/CambioNip1.png);
 		  background-repeat:no-repeat;
@@ -842,18 +774,39 @@ td {
 	 font-size: 12px;
 	 font-weight:500;
 	}
-	
+
 	.Icono {
         width:30%;
 		height:30%;
 		margin-left:40%;
     }
-	
+
 	.Textpop {
         text-align:center;
     }
 
-	.spanimaCancel{
+    .btns{
+      width: 97px;
+      height: 30px;
+      background-repeat: no-repeat;
+      border: none;
+      border-image-width: 0px;
+      border-radius: 8px 0px 0px 8px;
+      background-size: contain;
+      background-color: white;
+      border-radius: 8px;
+    }
+
+    .btnCancelarImg{
+      background-image:url(..//Imagenes/bn_cancelar1.png);
+
+    }
+
+    .btnAceptarImg{
+      background-image:url(..//Imagenes/bn_Aceptar1.png);
+
+    }
+	/*.spanimaCancel{
 		background-image:url(..//Imagenes/cancelar.png);
 		background-size: 40px 35px;
 		cursor: pointer;
@@ -865,7 +818,7 @@ td {
 		border: none;
 		border-radius: 8px 0px 0px 8px;
 	}
-	
+
 	.pbtncolorCan
 	{
 		color: white;
@@ -879,7 +832,7 @@ td {
 		padding-top: 9px;
 		font-family: "HelveticaNeueLTStd-BlkEx.otf";
 	}
-		
+
 	.spanimaAcep{
 		background-image:url(..//Imagenes/aceptar.png);
 	 	background-size: 40px 35px;
@@ -892,7 +845,7 @@ td {
 		border: none;
 		border-radius: 8px 0px 0px 8px;
 	}
-	
+
 	.pbtncolorAc{
 		color: white;
 		background-color: black;
@@ -904,25 +857,25 @@ td {
 		border-radius: 0 8px 8px 0;
 		padding-top: 9px;
 		font-family: "HelveticaNeueLTStd-BlkEx.otf";
-	}
-	
+	}*/
+
 	.contenidoLayout{
 		height:10px;
 	}
-	
+
 	.contenidoLayout>div[id^="pantalla"]{
 		height:10px;
 	}
-	
+
 	.text1{
         /*width:70%;
 		font-size:30px;
 		height:40px;*/
 		font-size:20px;
 	    text-align:center;
-		
+
     }
-	
+
 	 input[type=text], input[type=password] {
         color: #FF139B;
        /* height: 55px;*/
@@ -932,56 +885,59 @@ td {
         text-align: center;
 		text-transform: uppercase;
     }
-	
+
 	.spanTexto{
 		font-size: 9px;
 		font-family: "HelveticaNeueLTStd-BlkEx.otf";
 		font-weight:800;
     }
-	
+
 	.tablaletra{
 		font-size: 10px;
 		font-family: "HelveticaNeueLTStd-BlkEx.otf";
 		font-weight:900;
 		background-size:1px;
     }
-	
+
 	.imacirpalomita{
 	height: 30px;
 	margin-top: 15px;
 	}
-	
+
 	.divbarra{
 	  padding:.30em;
 	  background-color:#FF149B;
 	  margin-top:5px;
 	  width:100%;
 	}
-	
-	.rowdivfoter,#altura{
-		margin-top: 60px;
+
+  .rowdivfoter,#altura{
+    margin-top: -90px;
+    position: absolute;
+    bottom: -80px;
 	}
-	
+
 	.rowdivfoter,#altura1{
-		margin-top: 90px;
+    position: absolute;
+    bottom: -390px;
 	}
-	
+
 	.imaheader{
 			 height: 40px;
 			 margin-top: 10px;
 			 width:60%;
 	}
-	
+
 	.Imagracias{
 			width:80%;
 			height:80%;
 			margin-top:80px;
 	}
-	
+
 	.Load{
 	width:50%;
 	}
-	
+
 	.Reloj{
 		width:15%;
 	}
@@ -992,7 +948,7 @@ td {
 	 font-weight: bold;
 	 margin:22px;
 	 margin-top:-20px;
-	}	
+	}
 
 	p {
 		font-style: normal;
@@ -1011,7 +967,7 @@ td {
 		font-weight:500;
 		font-size: 12px;
 		color: black;
-	}	
+	}
 
 	.Letratabla{
 	 font-size:16px;
@@ -1021,7 +977,7 @@ td {
 		font-size:16px;
 		font-weight:900;
 	}
-	
+
 	.LetraDrctSubTitulo{
 		font-size:10px
 	}
@@ -1029,12 +985,12 @@ td {
 	.dft-footer-nav.v2{
 		position: relative;
 	}
-	
+
 	.dft-footer-nav__content {
 		/*max-width: 65vw;*/
 		margin: 0 auto ;
 	}
-	
+
 	.homeContinuar{
 		text-align:center;
 		font-weight:900;
@@ -1046,64 +1002,64 @@ td {
 		width:100%;
 		height:80px;
 	}
-	
+
 	.ImaDirectorio{
 		width:10%!important;
 		margin-top:15px;
 		vertical-align:super;
 	}
-	
+
 	.TextoDirectorio{
 		color:white;
 		font-weight:900;
 		font-size:30px;
-	}	
+	}
 
 	.divImaInformacion{
 		background-color:#FF149B;
 		width:100%;
 		height:50px;
 	}
-	
+
 	.tdImaInformacion{
 		width:50%;
 		text-align:center;
 		height: 50px;
 	}
-	
+
 	.ImaInfofbTw{
 		width:13%!important;
 		border-radius: 4px;
 	}
-	
+
 	.textPrepa{
 		text-align:center;
 		color:white;
 	}
-	
+
 	.ImaInfo{
 	width:15%!important;
 	vertical-align: bottom;
 	}
-	
+
 	.ImaAyudaInfo{
 	color:#FF139B;
 	font-size:30px;
 	font-weight:700;
-	}	
+	}
 }
 
 @media screen and (min-width: 550px) {
 	.modal-dialog-top {
 		padding-top: 300px !important;
 	}
-	
+
 	.body-content {
 		padding-top: 70px!important;
 		margin-bottom: 100px!important;
 		padding-top: 40px;
 		padding-bottom: 20px;
-	}	
+	}
 	.glyphicon.glyphicon-home {
 		background-image:url(..//Imagenes/home.png);
 		background-repeat:no-repeat;
@@ -1112,20 +1068,18 @@ td {
 		cursor: pointer;
 		width:100px;
 		height:100px;
-		margin-top:5px;
 	}
-	
+
 	.glyphicon.glyphicon-lock {
     background-image:url(..//Imagenes/home.png);
     background-repeat:no-repeat;
     background-size: 100px 90px;
     background-position:center;
     cursor: pointer;
-	width:100px;
-	height:100px;
-	margin-top:5px;
+	  width:100px;
+	  height:100px;
 	}
-	
+
 	.btn-circulo {
      background-image:url(..//Imagenes/imprimir2.png);
     background-repeat:no-repeat;
@@ -1138,58 +1092,58 @@ td {
     font-size: 12px !important;
     line-height: 1.42 !important;
     border-radius: 15px !important;
-}
+   }
     .btn-circulo:hover,
     .btn-circulo:focus,
     .btn-circulo:active {
 		background-image:url(..//Imagenes/imprimir3.png);
     }
-	
+
 	.spanTitulo {
 		font-size: 70px;
 		color: #FF149B;
 		font-family: "HelveticaNeueLTStd-BlkEx.otf";
 		font-weight:800;
 	}
-	
+
 	.spanTr {
 		font-family: "HelveticaNeueLTStd-BlkEx.otf";
 		font-weight:800;
 		font-size: 20px;
 		color: #FF139B;
 	}
-	
+
 	.spanTr1 {
 		font-family: "HelveticaNeueLTStd-BlkEx.otf";
 		font-weight:800;
 		font-size: 20px;
 		color: black;
 	}
-	
-	 .botonimagen{
-		  background-image:url(..//Imagenes/icono_directorio.png);
-		  background-repeat:no-repeat;
-		  height:65px;
-		  width:200px;
-		  background-size: 201px 65px;
-		  background-position:left;
-		  border-radius: 8px;
-		  margin-top:20px;
-		  padding-right:0px;
-	}
-	
-	.botonimagen1{
-		  background-image:url(..//Imagenes/Informacion2.png);
-		  background-repeat:no-repeat;
-		  height:65px;
-		  width:200px;
-		  background-size: 201px 65px;
-		  background-position:center;
-		  border-radius: 8px;
-		  margin-top:20px;
-	}
-	
-	.pImagenfotter1{
+
+  #divFooter {
+    margin: 5px !important;
+  }
+
+  #divFooter button{
+    height:65px;
+    width:200px;
+    border-radius: 8px;
+    margin-top:20px;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-color: white;
+  }
+
+  	 .botonimagen{
+  		  background-image:url(..//Imagenes/bn_Directorio.png);
+  	}
+
+    .botonimagen1{
+  		  background-image:url(..//Imagenes/bn_informacion.png);
+
+  	}
+
+	/*.pImagenfotter1{
 		color: white;
 		background-color: black;
 		width: 133px;height: 65px;
@@ -1200,60 +1154,9 @@ td {
 		float:right;
 		padding-top:20px;
 		font-family: "HelveticaNeueLTStd-BlkEx.otf";
-	}
-	
-	.botonimagen{
-		  background-image:url(..//Imagenes/icono_directorio.png);
-		  background-repeat:no-repeat;
-		  height:65px;
-		  width:200px;
-		  background-size: 60px 50px;
-		  background-position:left;
-		  border-radius: 8px;
-		  margin-top:20px;
-		  padding-right:0px;
-		  border-top:0px;
-	}
+	}*/
 
-	.pImagenfotter{
-		color: white;
-		background-color: black;
-		width: 143px;height: 65px;
-		font-weight: 900;
-		font-size: 16px;
-		margin: -10px;
-		border-radius:0 8px 8px 0;
-		float:right;
-		padding-top:20px;
-		font-family: "HelveticaNeueLTStd-BlkEx.otf";
-
-	}
-	
-	.botonimagen1{
-		  background-image:url(..//Imagenes/Informacion2.png);
-		  background-repeat:no-repeat;
-		  height:65px;
-		  width:199px;
-		  background-size: 60px 80px;
-		  background-position:left;
-		  border-radius: 8px;
-		  margin-top:20px;
-	}
-
-	.pImagenfotter1{
-			color: white;
-			background-color: black;
-			width: 143px;height: 65px;
-			font-weight: 900;
-			font-size: 16px;
-			margin: -10px;
-			border-radius:0 8px 8px 0;
-			float:right;
-			padding-top:20px;
-			font-family: "HelveticaNeueLTStd-BlkEx.otf";
-		}
-	
-	.botonimagenCons{
+		.botonimagenCons{
       background-image:url(..//Imagenes/Consulta.png);
 	  background-repeat:no-repeat;
 	  height:60px;
@@ -1261,16 +1164,16 @@ td {
 	  background-size: 251px 61px;
 	  background-position:center;
 
-}
+  }
 	input.botonimagenCons:hover, .button:hover{
-      background-image:url(..//Imagenes/Consulta1.png);
+    background-image:url(..//Imagenes/Consulta1.png);
 	  background-repeat:no-repeat;
 	  height:60px;
 	  width:250px;
 	  background-size: 251px 61px;
 	  background-position:center;
 
-}
+  }
 
 	.botonimagenCambioNip{
 		  background-image:url(..//Imagenes/CambioNip1.png);
@@ -1305,8 +1208,31 @@ td {
 	.Textpop {
         text-align:center;
     }
-	
-	.spanimaCancel{
+
+    .btns{
+      width: 143px;
+      height: 45px;
+      background-repeat: no-repeat;
+      border: none;
+      border-image-width: 0px;
+      border-radius: 8px 0px 0px 8px;
+      background-size: contain;
+      background-color: white;
+      border-radius: 8px;
+    }
+
+    .btnCancelarImg{
+      background-image:url(..//Imagenes/bn_cancelar1.png);
+
+    }
+
+    .btnAceptarImg{
+      background-image:url(..//Imagenes/bn_Aceptar1.png);
+
+    }
+
+
+	/*.spanimaCancel{
 		background-image:url(..//Imagenes/cancelar.png);
 		background-size: 45px 45px;
 		cursor: pointer;
@@ -1319,7 +1245,7 @@ td {
 		border-radius: 8px 0px 0px 8px;
 		margin-left: 40px;
 	}
-	
+
 	.pbtncolorCan
 	{
 		color: white;
@@ -1329,11 +1255,11 @@ td {
 		font-weight: 900;
 		font-size: 16px;
 		margin: auto;
-		border-radius: 0 8px 8px 0;		
+		border-radius: 0 8px 8px 0;
 		padding-top: 13px;
 		font-family: "HelveticaNeueLTStd-BlkEx.otf";
 	}
-		
+
 	.spanimaAcep{
 		background-image:url(..//Imagenes/aceptar.png);
 	 	background-size: 45px 50px;
@@ -1346,7 +1272,7 @@ td {
 		border: none;
 		border-radius: 8px 0px 0px 8px;
 	}
-	
+
 	.pbtncolorAc{
 		color: white;
 		background-color: black;
@@ -1355,26 +1281,26 @@ td {
 		font-weight: 900;
 		font-size: 16px;
 		margin: auto;
-		border-radius: 0 8px 8px 0;		
+		border-radius: 0 8px 8px 0;
 		padding-top: 13px;
 		font-family: "HelveticaNeueLTStd-BlkEx.otf";
-	}
-	
-	
+	}*/
+
+
 	.contenidoLayout{
 		height:100px;
 	}
-	
+
 	.contenidoLayout>div[id^="pantalla"]{
 		height:100px;
 	}
-	
+
 	.text1{
         width:100%;
 		font-size:30px;
 	    text-align:center;
     }
-	
+
 	 input[type=text], input[type=password] {
         color: #FF139B;
         height: 45px;
@@ -1386,13 +1312,13 @@ td {
 		width:100%;
 		margin-left:0px;
     }
-	
+
 	.spanTexto{
 		font-size: 16px;
 		font-family: "HelveticaNeueLTStd-BlkEx.otf";
 		font-weight:700;
     }
-	
+
 	.tablaletra{
 		font-size: 12px;
 		font-family: "HelveticaNeueLTStd-BlkEx.otf";
@@ -1400,48 +1326,51 @@ td {
 		width:70%;
 		margin-top:50px;
     }
-	
+
 	.imacirpalomita{
 	height: 70px;
 	margin-top: 15px;
 	}
-	
+
 	.divbarra{
 	  padding:.40em;
 	  background-color:#FF149B;
 	  margin-top:15px;
 	  width:100%;
 	}
-	
+
 	.rowdivfoter,#altura{
-		margin-top: -50px;
+    margin-top: -90px;
+    position: absolute;
+    bottom: -80px;
 	}
-	
+
 	.rowdivfoter,#altura1{
-		margin-top: 135px;
+    position: absolute;
+    bottom: -450px;
 	}
-	
+
 	.imaheader{
 			 height: 60px;
 			 height: 60px;
 			 margin-top: 10px;
 			 width:70%;
 	}
-	
+
 	.Imagracias{
 			 width:70%;
 			 height:70%;
 			 margin-top:150px;
 	}
-	
+
 	.Load{
 		width:50%;
 	}
-	
+
 	.Reloj{
 		width:15%;
 	}
-	
+
 	.letra{
 	 font-family: "HelveticaNeueLTStd-BlkEx.otf";
 	 font-size:20px;
@@ -1459,14 +1388,14 @@ td {
 		margin-left: 10%;
 		height: 90%!important;
 
-	}	
+	}
 
 	.spanLoading {
 		/*font-family: HelveticaNeueLTStd-BlkEx.otf;*/
 		font-weight:500;
 		font-size: 20px;
 		color: black;
-	}	
+	}
 
 	.Letratabla{
 	 font-size:28px;
@@ -1476,11 +1405,11 @@ td {
 		font-size:20px;
 		font-weight:800;
 	}
-	
+
 	.LetraDrctSubTitulo{
 		font-size:12px
-	}	
-	
+	}
+
 	.dft-footer-nav.v2{
 		position: relative;
 	}
@@ -1497,13 +1426,13 @@ td {
 		width:100%;
 		height:80px;
 	}
-	
+
 	.ImaDirectorio{
 		width:10%!important;
 		margin-top:15px;
 		vertical-align:text-bottom;
 	}
-	
+
 	.TextoDirectorio{
 		color:white;
 		font-weight:900;
@@ -1515,28 +1444,28 @@ td {
 		width:100%;
 		height:50px;
 	}
-	
+
 	.tdImaInformacion{
 		width:50%;
 		text-align:center;
 		height: 50px;
 	}
-	
+
 	.ImaInfofbTw{
 		width:13%!important;
 		border-radius: 4px;
 	}
-	
+
 	.textPrepa{
 		text-align:center;
 		color:white;
 	}
-	
+
 	.ImaInfo{
 	width:15%!important;
 	vertical-align: bottom;
 	}
-	
+
 	.ImaAyudaInfo{
 	color:#FF139B;
 	font-size:50px;
@@ -1545,10 +1474,9 @@ td {
 }
 
 @media screen and (min-width: 800px) {
-	.modal-dialog-top {
-		padding-top: 300px !important;
-	}
-	
+
+  .modal-dialog-top {  padding-top: 300px !important;	}
+
 	.body-content {
 		padding-top: 70px!important;
 		margin-bottom: 100px!important;
@@ -1564,17 +1492,17 @@ td {
 		width:100px;
 		height:100px;
 	}
-	
+
 	.glyphicon.glyphicon-lock {
     background-image:url(..//Imagenes/home.png);
     background-repeat:no-repeat;
     background-size: 100px 90px;
     background-position:center;
     cursor: pointer;
-	width:100px;
-	height:100px;
+  	width:100px;
+  	height:100px;
 	}
-	
+
 	.btn-circulo {
     background-image:url(..//Imagenes/imprimir2.png);
     background-repeat:no-repeat;
@@ -1587,27 +1515,28 @@ td {
     font-size: 12px !important;
     line-height: 1.42 !important;
     border-radius: 15px !important;
-}
-    .btn-circulo:hover,
-    .btn-circulo:focus,
-    .btn-circulo:active {
-		background-image:url(..//Imagenes/imprimir3.png);
     }
-	
+
+  .btn-circulo:hover,
+  .btn-circulo:focus,
+  .btn-circulo:active {
+		background-image:url(..//Imagenes/imprimir3.png);
+  }
+
 	.spanTitulo {
 		font-size: 80px;
 		color: #FF149B;
 		font-family: "HelveticaNeueLTStd-BlkEx.otf";
 		font-weight:800;
 	}
-	
+
 	.spanTr {
 		font-family: "HelveticaNeueLTStd-BlkEx.otf";
 		font-weight:800;
 		font-size: 20px;
 		color: #FF139B;
 	}
-	
+
 	.spanTr1 {
 		font-family: "HelveticaNeueLTStd-BlkEx.otf";
 		font-weight:800;
@@ -1615,19 +1544,29 @@ td {
 		color: black;
 	}
 
+#divFooter {
+  margin: 5px !important;
+}
+
+#divFooter button{
+  height:65px;
+  width:200px;
+  border-radius: 8px;
+  margin-top:20px;
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+
 	 .botonimagen{
-		  background-image:url(..//Imagenes/icono_directorio.png);
-		  background-repeat:no-repeat;
-		  height:65px;
-		  width:200px;
-		  background-size: 60px 50px;
-		  background-position:left;
-		  border-radius: 8px;
-		  margin-top:20px;
-		  padding-right:0px;
+		  background-image:url(..//Imagenes/bn_Directorio.png);
 	}
 
-	.pImagenfotter{
+  .botonimagen1{
+		  background-image:url(..//Imagenes/bn_informacion.png);
+
+	}
+
+/*	.pImagenfotter{
 		color: white;
 		background-color: black;
 		width: 133px;height: 65px;
@@ -1638,19 +1577,8 @@ td {
 		float:right;
 		padding-top:20px;
 		font-family: "HelveticaNeueLTStd-BlkEx.otf";
-	}
-	
-	.botonimagen1{
-		  background-image:url(..//Imagenes/Informacion2.png);
-		  background-repeat:no-repeat;
-		  height:65px;
-		  width:200px;
-		  background-size: 60px 80px;
-		  background-position:left;
-		  border-radius: 8px;
-		  margin-top:20px;
-	}
-	
+	}*/
+
 	.pImagenfotter1{
 		color: white;
 		background-color: black;
@@ -1666,19 +1594,19 @@ td {
 
 	.botonimagenCons{
       background-image:url(..//Imagenes/Consulta.png);
-	  background-repeat:no-repeat;
-	  height:60px;
-	  width:250px;
-	  background-size: 251px 61px;
-	  background-position:center;
-}
+  	  background-repeat:no-repeat;
+  	  height:60px;
+  	  width:250px;
+  	  background-size: 251px 61px;
+  	  background-position:center;
+    }
     input.botonimagenCons:hover, .button:hover{
-	  background-image:url(..//Imagenes/Consulta1.png);
-	  background-repeat:no-repeat;
-	  height:60px;
-	  width:250px;
-	  background-size: 251px 61px;
-	  background-position:center;
+  	  background-image:url(..//Imagenes/Consulta1.png);
+  	  background-repeat:no-repeat;
+  	  height:60px;
+  	  width:250px;
+  	  background-size: 251px 61px;
+  	  background-position:center;
 	 }
 
 	.botonimagenCambioNip{
@@ -1704,7 +1632,7 @@ td {
 	 font-weight:500;
 	 margin-top:10px;
 	}
-	
+
 	.Icono {
         width:auto;
 		height:100%;
@@ -1718,12 +1646,12 @@ td {
 	.contenidoLayout{
 		height:500px;
 	}
-	
+
 	.contenidoLayout>div[id^="pantalla"]{
 		height:500px;
 	}
-	
-	.spanimaCancel{
+
+	/*.spanimaCancel{
 		background-image:url(..//Imagenes/cancelar.png);
 		background-size: 45px 45px;
 		cursor: pointer;
@@ -1735,8 +1663,30 @@ td {
 		border: none;
 		border-radius: 8px 0px 0px 8px;
 		margin-left: 40px;
-	}
-	
+	}*/
+
+  .btns{
+    width: 143px;
+		height: 45px;
+		background-repeat: no-repeat;
+		border: none;
+    border-image-width: 0px;
+		border-radius: 8px 0px 0px 8px;
+    background-size: contain;
+    background-color: white;
+    border-radius: 8px;
+  }
+
+  .btnCancelarImg{
+    background-image:url(..//Imagenes/bn_cancelar1.png);
+
+  }
+
+  .btnAceptarImg{
+    background-image:url(..//Imagenes/bn_Aceptar1.png);
+
+  }
+
 	.pbtncolorCan
 	{
 		color: white;
@@ -1746,12 +1696,12 @@ td {
 		font-weight: 900;
 		font-size: 16px;
 		margin: auto;
-		border-radius: 0 8px 8px 0;		
+		border-radius: 0 8px 8px 0;
 		padding-top: 13px;
 		font-family: "HelveticaNeueLTStd-BlkEx.otf";
 	}
-		
-	.spanimaAcep{
+
+	/*.spanimaAcep{
 		background-image:url(..//Imagenes/aceptar.png);
 	 	background-size: 45px 50px;
 		cursor: pointer;
@@ -1762,8 +1712,8 @@ td {
 		top: 1px;
 		border: none;
 		border-radius: 8px 0px 0px 8px;
-	}
-	
+	}*/
+
 	.pbtncolorAc{
 		color: white;
 		background-color: black;
@@ -1772,7 +1722,7 @@ td {
 		font-weight: 900;
 		font-size: 16px;
 		margin: auto;
-		border-radius: 0 8px 8px 0;		
+		border-radius: 0 8px 8px 0;
 		padding-top: 13px;
 		font-family: "HelveticaNeueLTStd-BlkEx.otf";
 	}
@@ -1782,7 +1732,7 @@ td {
 		font-size:30px;
 	    text-align:center;
     }
-	
+
 	input[type=text], input[type=password] {
         color: #FF139B;
         height: 45px;
@@ -1795,46 +1745,49 @@ td {
 		margin-left:0px;
 		background-color: white;
     }
-	
+
 	.spanTexto{
 		font-size: 26px;
 		font-family: "HelveticaNeueLTStd-BlkEx.otf";
 		font-weight:700;
-    }	
-	
+    }
+
 	.tablaletra{
 		font-size: 20px;
 		font-family: "HelveticaNeueLTStd-BlkEx.otf";
 		font-weight:700;
 		width:40%;
     }
-	
+
 	.imacirpalomita{
 	height: 70px;
 	margin-top: 15px;
 	}
-	
+
 	.divbarra{
 	  padding:.40em;
 	  background-color:#FF149B;
 	  margin-top:15px;
 	  width:100%;
 	}
-	
+
 	.rowdivfoter,#altura{
-		margin-top: -90px;
+		/*margin-top: -90px;*/
+    position: absolute;
+    bottom: -80px;
 	}
-	
+
 	.rowdivfoter,#altura1{
-		margin-top: 140px;
+    position: absolute;
+    bottom: -80px;
 	}
-	
+
 	.imaheader{
 			 height: 70px;
 			 margin-top: 15px;
 			 /*width:100%;*/
 	}
-	
+
 	.Imagracias{
 			 width:50%;
 			 height:50%;
@@ -1844,23 +1797,23 @@ td {
 	.Load{
 	width:30%;
  }
-	
+
 	.Reloj{
 		width:6%;
 	}
-	
+
 	.letra{
 	 font-family: "HelveticaNeueLTStd-BlkEx.otf";
 	 font-size:20px;
 	 font-weight: bold;
 	 margin-top:-13px;
 	}
-	
+
 	p {
 		font-style: normal;
 		font-size: 18px;
 	}
-	
+
 	.directorio-content {
 		width: 90% !important;
 		margin-left: 5%;
@@ -1876,11 +1829,11 @@ td {
 		font-size:20px;
 		font-weight:800;
 	}
-	
+
 	.LetraDrctSubTitulo{
 		font-size:12px
 	}
-	
+
 	.dft-footer-nav.v2{
 		position: relative;
 	}
@@ -1896,13 +1849,13 @@ td {
 		width:100%;
 		height:80px;
 	}
-	
+
 	.ImaDirectorio{
 		width:10%!important;
 		margin-top:15px;
 		vertical-align:text-bottom;
 	}
-	
+
 	.TextoDirectorio{
 		color:white;
 		font-weight:700;
@@ -1914,32 +1867,31 @@ td {
 		width:100%;
 		height:50px;
 	}
-	
+
 	.tdImaInformacion{
 		width:50%;
 		text-align:center;
 		height: 50px;
 	}
-	
+
 	.ImaInfofbTw{
 		width:13%!important;
 		border-radius: 4px;
 	}
-	
+
 	.textPrepa{
 		text-align:center;
 		color:white;
 	}
-	
+
 	.ImaInfo{
 	width:15%!important;
 	vertical-align: bottom;
 	}
-	
+
 	.ImaAyudaInfo{
 	color:#FF139B;
 	font-size:50px;
 	font-weight:700;
 	}
 }
-
