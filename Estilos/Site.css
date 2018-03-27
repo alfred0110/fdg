@@ -2,10 +2,154 @@
     height: 100%;
     margin: 0px;
     padding: 0px;
+    font-family:
    /* font-family: 'Arimo' !important;*/
    /* font-style: italic !important;*/
 }
 
+@font-face {
+  font-family: 'Helvetica';
+  src: url(..//fonts/HelveticaNeueLTStd-BlkCn.otf);
+  font-weight:300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Helvetica-Medium';
+  src: url(..//fonts/HelveticaNeueLTStd-Md.otf);
+  font-weight:300;
+  font-style: normal;
+}
+
+.spanTitulo {
+  color:#FF149B;
+  font-family: "Helvetica";
+  font-weight:300;
+}
+
+.spanTexto{
+  font-family: "Helvetica-Medium";
+  font-weight:200;
+  }
+
+.tablaletra{
+		font-size: 10px;
+		font-family: "Helvetica-Medium";
+		font-weight:300;
+}
+
+.homeContinuar{
+  font-weight:800;
+  font-size:20px;
+  font-family: "Helvetica-Medium";
+  text-align: center;
+}
+
+.subtit{
+  font-weight:900;
+  font-size:26px;
+  font-family: "Helvetica-Medium";
+  text-align: center;
+}
+
+.textcaja{
+ font-family: "Helvetica-Medium";
+ font-size: 12px;
+ font-weight:100;
+ text-align: center;
+}
+
+input[type=text], input[type=password] {
+   color: #FF149B;
+   height: 45px;
+   font-family: "Helvetica-Medium";
+   font-weight:800;
+   font-size: 20px;
+   text-align: center;
+   text-transform: uppercase;
+   width:100%;
+   margin-left:0px;
+ }
+
+ .spanLoading {
+   font-family: "Helvetica-Medium";
+   font-weight:500;
+   font-size: 12px;
+   text-align: center;
+ }
+
+ .Letratabla{
+  font-family: "Helvetica-Medium";
+  font-size:28px;
+  text-align: center;
+  font-weight:800;
+ }
+
+ .spanTr {
+   font-family: "Helvetica-Medium";
+   font-size:28px;
+   text-align: center;
+   font-weight:800;
+   color: #FF149B;
+ }
+
+ .LetraDrctTitulo{
+   font-family: "Helvetica-Medium";
+   font-size:20px;
+   font-weight:900;
+ }
+
+ .LetraDrctSubTitulo{
+   font-family: "Helvetica-Medium";
+   font-size:12px;
+   font-weight:100;
+ }
+
+ .PimaInfo{
+  font-size:12px;
+  font-family: "Helvetica-Medium";
+  font-weight:normal;
+  padding-top: 10px;
+  padding-bottom: 50px;
+ }
+
+ .SubtitPimaInfo{
+   padding-top: 10px;
+   padding-bottom: 50px;
+   font-weight:100;
+ }
+
+ .textPrepa{
+   font-family: "Helvetica-Medium";
+   font-weight:normal;
+   text-align:center;
+   color:white;
+   font-size:14px;
+ }
+
+ .ImaAyudaInfo{
+   font-family: "Helvetica";
+   color:#FF149B;
+   font-size:25px;
+   font-weight:700;
+ }
+
+ .divbarra{
+  background-color: #FF149B;
+ }
+
+ .divImaDirectorio
+ {
+   background-color:#FF149B;
+   width:100%;
+   height:80px;
+ }
+
+ .divImaInformacion{
+   background-color:#FF149B;
+   width:100%;
+   height:50px;
+ }
 input,
 select,
 textarea {
@@ -42,40 +186,12 @@ input {
     flex-direction: column;
 }
 
-.glyphicon.glyphicon-ok-sign {
-    /*font-size: 60px;
-    color: #FF139B;
-    cursor: pointer;*/
-}
-
-.glyphicon.glyphicon-ok-sign:hover {
-    /*color: #333333;*/
-}
-
-.glyphicon.glyphicon-remove-sign {
-   /* font-size: 60px;
-    color: #9B9B9B;
-    cursor:pointer;/*
-}
-    .glyphicon.glyphicon-remove-sign:hover {
-        color: #333333;
-    }
-
-.glyphicon.glyphicon-print {
-    font-size: 20px;
-    /*padding-left: 5px!important;
-    color: #FF139B;
-    cursor: pointer;*/
-}
-
 .imgEspacio {
     padding: 15px;
 }
 
 .spanSubtitulo {
     font-size: 30px;
-    color: black!important;
-	font-family: Helvetica Neue LT Std;
 }
 
 th {
@@ -91,7 +207,7 @@ th {
     color: white !important;
     font-size: 20px !important;
     box-shadow: 5px 5px 3px #737277 !important;
-    -webkit-box-shadow: 5px 5px 3px #737277 !important; /* Safari y Chrome*/
+    -webkit-box-shadow: 5px 5px 3px #FF149B !important; /* Safari y Chrome*/
 }
 
 .btn-default:hover {
@@ -177,9 +293,7 @@ td {
 }
 
 .subtit{
- font-family: "HelveticaNeueLTStd-BlkEx.otf";
  font-size: 26px;
- font-weight:800;
 }
 
 .subtitulo{
@@ -192,24 +306,33 @@ td {
 	text-align:center;
 }
 
-.PimaInfo{
-	padding-top: 10px;
-	padding-bottom: 50px;
-	font-weight:300;
-}
-
-.SubtitPimaInfo{
-	padding-top: 10px;
-	padding-bottom: 50px;
-	font-weight:600;
-}
-
 .Imaredes{
  width:100%!important;
 }
 
 .Sinbor{
 	border: none;
+}
+
+.fa {
+  padding: 8px !important;
+  font-size: 18px !important;
+  width: 30px !important;
+  text-align: center !important;
+  text-decoration: none !important;
+/*  margin: 5px 2px !important;*/
+}
+
+.fa-facebook {
+  background: white!important;
+  color: #FF149B  !important;
+  border-radius: 8px;
+}
+
+.fa-twitter {
+  background: white !important;
+  color: #FF149B  !important;
+  border-radius: 8px;
 }
 
 @media screen and (min-width: 100px) {
@@ -247,15 +370,12 @@ td {
 
 	.btn-circulo {
     background-image:url(..//Imagenes/imprimir2.png);
-    background-repeat:no-repeat;
-    background-size: 30px 26px;
-    background-position:center;
-    width: 26px !important;
-    height: 26px !important;
+    background-repeat: no-repeat;
+    background-size: 30px 28px;
+    width: 30px !important;
+    height: 30px !important;
     text-align: center !important;
     padding: 6px 0 !important;
-    font-size: 12px !important;
-    line-height: 1.42 !important;
     border-radius: 15px !important;
 	}
     .btn-circulo:hover,
@@ -266,16 +386,10 @@ td {
 
 	.spanTitulo {
 		font-size: 40px;
-		color: #FF149B;
-		font-family: "HelveticaNeueLTStd-BlkEx.otf";
-		font-weight:800;
 	}
 
 	.spanTr {
-		font-family: "HelveticaNeueLTStd-BlkEx.otf";
-		font-weight:600;
 		font-size: 14px;
-		color: #FF139B;
 	}
 
 	.spanTr1 {
@@ -316,6 +430,8 @@ td {
 		  width:150px;
 		  background-size: 151px 41px;
 		  background-position:center;
+      background-color: white;
+      background-color: white;
 
 	}
 	input.botonimagenCons:hover, .button:hover{
@@ -325,7 +441,7 @@ td {
 	width:150px;
 	background-size: 151px 41px;
 	background-position:center;
-
+  background-color: white;
 	}
 
 	.botonimagenCambioNip{
@@ -335,6 +451,7 @@ td {
 		  width:150px;
 		  background-size: 151px 41px;
 		  background-position:center;
+      background-color: white;
 
 	}
 	input.botonimagenCambioNip:hover, .button:hover{
@@ -344,13 +461,11 @@ td {
 		  width:150px;
 		  background-size: 151px 41px;
 		  background-position:center;
-
+      background-color: white;
 	}
 
 	.textcaja{
-	 font-family: "HelveticaNeueLTStd-BlkEx.otf";
 	 font-size: 12px;
-	 font-weight:500;
 	}
 
 	.Icono {
@@ -385,58 +500,7 @@ td {
       background-image:url(..//Imagenes/bn_Aceptar1.png);
 
     }
-	/*.spanimaCancel{
-		background-image:url(..//Imagenes/cancelar.png);
-		background-size: 30px 30px;
-		cursor: pointer;
-		width: 114px;
-		height: 30px;
-		background-repeat: no-repeat;
-		font-size: 60px;
-		top: 1px;
-		border: none;
-		border-radius: 8px 0px 0px 8px;
-	}
 
-	.pbtncolorCan
-	{
-		color: white;
-		background-color: black;
-		width: 70px;
-		height: 30px;
-		font-weight: 900;
-		font-size: 10px;
-		margin: auto;
-		border-radius: 0 8px 8px 0;
-		padding-top: 9px;
-		font-family: "HelveticaNeueLTStd-BlkEx.otf";
-	}
-
-	.spanimaAcep{
-		background-image: url(..//Imagenes/aceptar.png);
-		background-size: 30px 30px;
-		cursor: pointer;
-		width: 110px;
-		height: 30px;
-		background-repeat: no-repeat;
-		font-size: 10px;
-		top: 1px;
-		border: none;
-		border-radius: 8px 0px 0px 8px;
-	}
-
-	.pbtncolorAc{
-		color: white;
-		background-color: black;
-		width: 60px;
-		height: 30px;
-		font-weight: 900;
-		font-size: 10px;
-		margin: auto;
-		border-radius: 0 8px 8px 0;
-		padding-top: 9px;
-		font-family: "HelveticaNeueLTStd-BlkEx.otf";
-	}*/
 
 	.contenidoLayout{
 		height:10px;
@@ -456,26 +520,15 @@ td {
     }
 
 	 input[type=text], input[type=password] {
-        color: #FF139B;
-       /* height: 55px;*/
-        font-family: "HelveticaNeueLTStd-BlkEx.otf";
-		font-weight:800;
-		/*font-size: 25px;*/
-        text-align: center;
-		text-transform: uppercase;
+        font-size: 16px;
     }
 
 	.spanTexto{
 		font-size: 9px;
-		font-family: "HelveticaNeueLTStd-BlkEx.otf";
-		font-weight:800;
     }
 
 	.tablaletra{
 		font-size: 10px;
-		font-family: "HelveticaNeueLTStd-BlkEx.otf";
-		font-weight:900;
-		background-size:1px;
     }
 
 	.imacirpalomita{
@@ -485,7 +538,6 @@ td {
 
 	.divbarra{
 	  padding:.30em;
-	  background-color:#FF149B;
 	  margin-top:5px;
 	  width:100%;
 	}
@@ -541,19 +593,15 @@ td {
 	}
 
 	.spanLoading {
-		/*font-family: HelveticaNeueLTStd-BlkEx.otf;*/
-		font-weight:500;
 		font-size: 12px;
-		color: black;
 	}
 
 	.Letratabla{
 	 font-size:16px;
 	}
 
-    .LetraDrctTitulo{
+.LetraDrctTitulo{
 		font-size:16px;
-		font-weight:900;
 	}
 
 	.LetraDrctSubTitulo{
@@ -570,15 +618,11 @@ td {
 	}
 
 	.homeContinuar{
-		text-align:center;
-		font-weight:900;
 		font-size:20px;
-		font-family: "HelveticaNeueLTStd-BlkEx.otf";
 	}
 
 	.divImaDirectorio
 	{
-		background-color:#FF149B;
 		width:100%;
 		height:80px;
 	}
@@ -596,7 +640,6 @@ td {
 	}
 
 	.divImaInformacion{
-		background-color:#FF149B;
 		width:100%;
 		height:50px;
 	}
@@ -613,8 +656,7 @@ td {
 	}
 
 	.textPrepa{
-		text-align:center;
-		color:white;
+    font-size:10px;
 	}
 
 	.ImaInfo{
@@ -623,10 +665,19 @@ td {
 	}
 
 	.ImaAyudaInfo{
-	color:#FF139B;
-	font-size:25px;
-	font-weight:700;
+	 font-size:25px;
 	}
+
+  .PimaInfo{
+  	font-size: 10px;
+  }
+
+  .SubtitPimaInfo{
+  	padding-top: 10px;
+  	padding-bottom: 50px;
+  	font-weight:600;
+  }
+
 }
 
 @media screen and (min-width: 400px) {
@@ -684,16 +735,10 @@ td {
 
 	.spanTitulo {
 		font-size: 40px;
-		color: #FF149B;
-		font-family: "HelveticaNeueLTStd-BlkEx.otf";
-		font-weight:800;
 	}
 
 	.spanTr {
-		font-family: "HelveticaNeueLTStd-BlkEx.otf";
-		font-weight:600;
 		font-size: 14px;
-		color: #FF139B;
 	}
 
 	.spanTr1   {
@@ -725,21 +770,6 @@ td {
 
   }
 
-
-/*	.pImagenfotter1{
-		color: white;
-		background-color: black;
-		width: 76px;
-		height: 35px;
-		font-weight: 900;
-		font-size: 10px;
-		margin: -10px;
-		border-radius: 0 8px 8px 0;
-		float: right;
-		padding-top: 12px;
-		font-family: "HelveticaNeueLTStd-BlkEx.otf";
-	}*/
-
 	input.botonimagenCons:hover, .button:hover{
 	background-image:url(..//Imagenes/Consulta1.png);
 	background-repeat:no-repeat;
@@ -770,9 +800,7 @@ td {
 	}
 
 	.textcaja{
-	 font-family: "HelveticaNeueLTStd-BlkEx.otf";
 	 font-size: 12px;
-	 font-weight:500;
 	}
 
 	.Icono {
@@ -806,58 +834,6 @@ td {
       background-image:url(..//Imagenes/bn_Aceptar1.png);
 
     }
-	/*.spanimaCancel{
-		background-image:url(..//Imagenes/cancelar.png);
-		background-size: 40px 35px;
-		cursor: pointer;
-		width: 140px;
-		height: 35px;
-		background-repeat: no-repeat;
-		font-size: 60px;
-		top: 1px;
-		border: none;
-		border-radius: 8px 0px 0px 8px;
-	}
-
-	.pbtncolorCan
-	{
-		color: white;
-		background-color: black;
-		width: 75px;
-		height: 35px;
-		font-weight: 900;
-		font-size: 12px;
-		margin: auto;
-		border-radius: 0 8px 8px 0;
-		padding-top: 9px;
-		font-family: "HelveticaNeueLTStd-BlkEx.otf";
-	}
-
-	.spanimaAcep{
-		background-image:url(..//Imagenes/aceptar.png);
-	 	background-size: 40px 35px;
-		cursor: pointer;
-		width: 140px;
-		height: 35px;
-		background-repeat: no-repeat;
-		font-size: 60px;
-		top: 1px;
-		border: none;
-		border-radius: 8px 0px 0px 8px;
-	}
-
-	.pbtncolorAc{
-		color: white;
-		background-color: black;
-		width: 75px;
-		height: 35px;
-		font-weight: 900;
-		font-size: 12px;
-		margin: auto;
-		border-radius: 0 8px 8px 0;
-		padding-top: 9px;
-		font-family: "HelveticaNeueLTStd-BlkEx.otf";
-	}*/
 
 	.contenidoLayout{
 		height:10px;
@@ -877,26 +853,15 @@ td {
     }
 
 	 input[type=text], input[type=password] {
-        color: #FF139B;
-       /* height: 55px;*/
-        font-family: "HelveticaNeueLTStd-BlkEx.otf";
-		font-weight:800;
-		/*font-size: 25px;*/
-        text-align: center;
-		text-transform: uppercase;
+		 font-size: 18px;
     }
 
 	.spanTexto{
 		font-size: 9px;
-		font-family: "HelveticaNeueLTStd-BlkEx.otf";
-		font-weight:800;
     }
 
 	.tablaletra{
 		font-size: 10px;
-		font-family: "HelveticaNeueLTStd-BlkEx.otf";
-		font-weight:900;
-		background-size:1px;
     }
 
 	.imacirpalomita{
@@ -906,7 +871,6 @@ td {
 
 	.divbarra{
 	  padding:.30em;
-	  background-color:#FF149B;
 	  margin-top:5px;
 	  width:100%;
 	}
@@ -963,19 +927,15 @@ td {
 	}
 
 	.spanLoading {
-		/*font-family: HelveticaNeueLTStd-BlkEx.otf;*/
-		font-weight:500;
 		font-size: 12px;
-		color: black;
 	}
 
 	.Letratabla{
 	 font-size:16px;
 	}
 
-    .LetraDrctTitulo{
+  .LetraDrctTitulo{
 		font-size:16px;
-		font-weight:900;
 	}
 
 	.LetraDrctSubTitulo{
@@ -992,13 +952,10 @@ td {
 	}
 
 	.homeContinuar{
-		text-align:center;
-		font-weight:900;
 		font-size:30px;
 	}
 
 	.divImaDirectorio{
-		background-color:#FF149B;
 		width:100%;
 		height:80px;
 	}
@@ -1016,7 +973,6 @@ td {
 	}
 
 	.divImaInformacion{
-		background-color:#FF149B;
 		width:100%;
 		height:50px;
 	}
@@ -1033,8 +989,7 @@ td {
 	}
 
 	.textPrepa{
-		text-align:center;
-		color:white;
+		font-size: 10px;
 	}
 
 	.ImaInfo{
@@ -1043,10 +998,19 @@ td {
 	}
 
 	.ImaAyudaInfo{
-	color:#FF139B;
 	font-size:30px;
-	font-weight:700;
 	}
+
+  .PimaInfo{
+  	font-size: 10px;
+  }
+
+  .SubtitPimaInfo{
+  	padding-top: 10px;
+  	padding-bottom: 50px;
+  	font-weight:600;
+  }
+
 }
 
 @media screen and (min-width: 550px) {
@@ -1101,16 +1065,10 @@ td {
 
 	.spanTitulo {
 		font-size: 70px;
-		color: #FF149B;
-		font-family: "HelveticaNeueLTStd-BlkEx.otf";
-		font-weight:800;
 	}
 
 	.spanTr {
-		font-family: "HelveticaNeueLTStd-BlkEx.otf";
-		font-weight:800;
-		font-size: 20px;
-		color: #FF139B;
+		font-size: 18px;
 	}
 
 	.spanTr1 {
@@ -1193,9 +1151,7 @@ td {
 	}
 
 	.textcaja{
-	 font-family: "HelveticaNeueLTStd-BlkEx.otf";
-	 font-size: 24px;
-	 font-weight:500;
+	 font-size: 20px;
 	}
 
 	.Icono {
@@ -1231,62 +1187,6 @@ td {
 
     }
 
-
-	/*.spanimaCancel{
-		background-image:url(..//Imagenes/cancelar.png);
-		background-size: 45px 45px;
-		cursor: pointer;
-		width: 180px;
-		height: 45px;
-		background-repeat: no-repeat;
-		font-size: 60px;
-		top: 1px;
-		border: none;
-		border-radius: 8px 0px 0px 8px;
-		margin-left: 40px;
-	}
-
-	.pbtncolorCan
-	{
-		color: white;
-		background-color: black;
-		width: 100px;
-		height: 45px;
-		font-weight: 900;
-		font-size: 16px;
-		margin: auto;
-		border-radius: 0 8px 8px 0;
-		padding-top: 13px;
-		font-family: "HelveticaNeueLTStd-BlkEx.otf";
-	}
-
-	.spanimaAcep{
-		background-image:url(..//Imagenes/aceptar.png);
-	 	background-size: 45px 50px;
-		cursor: pointer;
-		width: 180px;
-		height: 45px;
-		background-repeat: no-repeat;
-		font-size: 60px;
-		top: 1px;
-		border: none;
-		border-radius: 8px 0px 0px 8px;
-	}
-
-	.pbtncolorAc{
-		color: white;
-		background-color: black;
-		width: 100px;
-		height: 45px;
-		font-weight: 900;
-		font-size: 16px;
-		margin: auto;
-		border-radius: 0 8px 8px 0;
-		padding-top: 13px;
-		font-family: "HelveticaNeueLTStd-BlkEx.otf";
-	}*/
-
-
 	.contenidoLayout{
 		height:100px;
 	}
@@ -1302,27 +1202,15 @@ td {
     }
 
 	 input[type=text], input[type=password] {
-        color: #FF139B;
-        height: 45px;
-        font-family: "HelveticaNeueLTStd-BlkEx.otf";
-		font-weight:800;
-		font-size: 20px;
-        text-align: center;
-		text-transform: uppercase;
-		width:100%;
-		margin-left:0px;
+   		font-size: 20px;
     }
 
 	.spanTexto{
 		font-size: 16px;
-		font-family: "HelveticaNeueLTStd-BlkEx.otf";
-		font-weight:700;
     }
 
 	.tablaletra{
 		font-size: 12px;
-		font-family: "HelveticaNeueLTStd-BlkEx.otf";
-		font-weight:700;
 		width:70%;
 		margin-top:50px;
     }
@@ -1334,7 +1222,6 @@ td {
 
 	.divbarra{
 	  padding:.40em;
-	  background-color:#FF149B;
 	  margin-top:15px;
 	  width:100%;
 	}
@@ -1391,19 +1278,15 @@ td {
 	}
 
 	.spanLoading {
-		/*font-family: HelveticaNeueLTStd-BlkEx.otf;*/
-		font-weight:500;
-		font-size: 20px;
-		color: black;
+		font-size: 12px;
 	}
 
 	.Letratabla{
 	 font-size:28px;
 	}
 
-    .LetraDrctTitulo{
+ .LetraDrctTitulo{
 		font-size:20px;
-		font-weight:800;
 	}
 
 	.LetraDrctSubTitulo{
@@ -1415,14 +1298,11 @@ td {
 	}
 
 	.homeContinuar{
-		text-align:center;
-		font-weight:900;
 		font-size:40px;
 	}
 
 	.divImaDirectorio
 	{
-		background-color:#FF149B;
 		width:100%;
 		height:80px;
 	}
@@ -1440,7 +1320,6 @@ td {
 	}
 
 	.divImaInformacion{
-		background-color:#FF149B;
 		width:100%;
 		height:50px;
 	}
@@ -1456,9 +1335,8 @@ td {
 		border-radius: 4px;
 	}
 
-	.textPrepa{
-		text-align:center;
-		color:white;
+  .textPrepa{
+		font-size: 14px;
 	}
 
 	.ImaInfo{
@@ -1467,10 +1345,18 @@ td {
 	}
 
 	.ImaAyudaInfo{
-	color:#FF139B;
 	font-size:50px;
-	font-weight:700;
 	}
+
+  .PimaInfo{
+  	font-size: 18px;
+  }
+
+  .SubtitPimaInfo{
+  	padding-top: 10px;
+  	padding-bottom: 50px;
+  	font-weight:600;
+  }
 }
 
 @media screen and (min-width: 800px) {
@@ -1505,15 +1391,12 @@ td {
 
 	.btn-circulo {
     background-image:url(..//Imagenes/imprimir2.png);
-    background-repeat:no-repeat;
-    background-size: 36px 30px;
-    background-position:center;
-    width: 32px !important;
-    height: 32px !important;
+    background-repeat: no-repeat;
+    background-size: 30px 28px;
+    width: 30px !important;
+    height: 30px !important;
     text-align: center !important;
     padding: 6px 0 !important;
-    font-size: 12px !important;
-    line-height: 1.42 !important;
     border-radius: 15px !important;
     }
 
@@ -1525,16 +1408,10 @@ td {
 
 	.spanTitulo {
 		font-size: 80px;
-		color: #FF149B;
-		font-family: "HelveticaNeueLTStd-BlkEx.otf";
-		font-weight:800;
 	}
 
 	.spanTr {
-		font-family: "HelveticaNeueLTStd-BlkEx.otf";
-		font-weight:800;
-		font-size: 20px;
-		color: #FF139B;
+		font-size: 18px;
 	}
 
 	.spanTr1 {
@@ -1565,19 +1442,6 @@ td {
 		  background-image:url(..//Imagenes/bn_informacion.png);
 
 	}
-
-/*	.pImagenfotter{
-		color: white;
-		background-color: black;
-		width: 133px;height: 65px;
-		font-weight: 900;
-		font-size: 16px;
-		margin: auto;
-		border-radius:0 8px 8px 0;
-		float:right;
-		padding-top:20px;
-		font-family: "HelveticaNeueLTStd-BlkEx.otf";
-	}*/
 
 	.pImagenfotter1{
 		color: white;
@@ -1627,14 +1491,12 @@ td {
 	}
 
 	.textcaja{
-	 font-family: "HelveticaNeueLTStd-BlkEx.otf";
-	 font-size: 24px;
-	 font-weight:500;
+	 font-size: 20px;
 	 margin-top:10px;
 	}
 
 	.Icono {
-        width:auto;
+    width:50%;
 		height:100%;
 		margin-left:40%;
     }
@@ -1651,21 +1513,7 @@ td {
 		height:500px;
 	}
 
-	/*.spanimaCancel{
-		background-image:url(..//Imagenes/cancelar.png);
-		background-size: 45px 45px;
-		cursor: pointer;
-		width: 180px;
-		height: 45px;
-		background-repeat: no-repeat;
-		font-size: 60px;
-		top: 1px;
-		border: none;
-		border-radius: 8px 0px 0px 8px;
-		margin-left: 40px;
-	}*/
-
-  .btns{
+	.btns{
     width: 143px;
 		height: 45px;
 		background-repeat: no-repeat;
@@ -1701,19 +1549,6 @@ td {
 		font-family: "HelveticaNeueLTStd-BlkEx.otf";
 	}
 
-	/*.spanimaAcep{
-		background-image:url(..//Imagenes/aceptar.png);
-	 	background-size: 45px 50px;
-		cursor: pointer;
-		width: 180px;
-		height: 45px;
-		background-repeat: no-repeat;
-		font-size: 60px;
-		top: 1px;
-		border: none;
-		border-radius: 8px 0px 0px 8px;
-	}*/
-
 	.pbtncolorAc{
 		color: white;
 		background-color: black;
@@ -1734,28 +1569,19 @@ td {
     }
 
 	input[type=text], input[type=password] {
-        color: #FF139B;
-        height: 45px;
-        font-family: "HelveticaNeueLTStd-BlkEx.otf";
-		font-weight:800;
 		font-size: 20px;
-        text-align: center;
-		text-transform: uppercase;
-		width:100%;
-		margin-left:0px;
-		background-color: white;
-    }
+  }
 
 	.spanTexto{
 		font-size: 26px;
-		font-family: "HelveticaNeueLTStd-BlkEx.otf";
-		font-weight:700;
+    }
+
+    .spanLoading {
+      font-size: 20px;
     }
 
 	.tablaletra{
 		font-size: 20px;
-		font-family: "HelveticaNeueLTStd-BlkEx.otf";
-		font-weight:700;
 		width:40%;
     }
 
@@ -1766,7 +1592,6 @@ td {
 
 	.divbarra{
 	  padding:.40em;
-	  background-color:#FF149B;
 	  margin-top:15px;
 	  width:100%;
 	}
@@ -1822,12 +1647,11 @@ td {
 	}
 
 	.Letratabla{
-	 font-size:28px;
+	 font-size:22px;
 	}
 
 	.LetraDrctTitulo{
 		font-size:20px;
-		font-weight:800;
 	}
 
 	.LetraDrctSubTitulo{
@@ -1839,13 +1663,10 @@ td {
 	}
 
 	.homeContinuar{
-		text-align:center;
-		font-weight:900;
 		font-size:40px;
 	}
 
 	.divImaDirectorio{
-		background-color:#FF149B;
 		width:100%;
 		height:80px;
 	}
@@ -1863,7 +1684,6 @@ td {
 	}
 
 	.divImaInformacion{
-		background-color:#FF149B;
 		width:100%;
 		height:50px;
 	}
@@ -1879,9 +1699,8 @@ td {
 		border-radius: 4px;
 	}
 
-	.textPrepa{
-		text-align:center;
-		color:white;
+  .textPrepa{
+		font-size: 14px;
 	}
 
 	.ImaInfo{
@@ -1890,8 +1709,16 @@ td {
 	}
 
 	.ImaAyudaInfo{
-	color:#FF139B;
 	font-size:50px;
-	font-weight:700;
 	}
+
+  .PimaInfo{
+  	font-size: 18px;
+  }
+
+  .SubtitPimaInfo{
+  	padding-top: 10px;
+  	padding-bottom: 50px;
+  	font-weight:600;
+  }
 }

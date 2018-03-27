@@ -1836,14 +1836,24 @@ input[type="number"]::-webkit-inner-spin-button {
   color: #999999;
 }
 
+
+@font-face {
+  font-family: 'Helvetica-Medium';
+  src: url(..//fonts/HelveticaNeueLTStd-Md.otf);
+  font-weight:300;
+  font-style: normal;
+}
+
 .form-control {
+  font-family: 'Helvetica-Medium';
+  font-weight: 800;
   display: block;
   width: 100%;
-  height: 34px;
+  height: 42px;
   padding: 6px 12px;
-  font-size: 14px;
+  font-size: 20px;
   line-height: 1.428571429;
-  color: #555555;
+  color: #FF149B;
   vertical-align: middle;
   background-color: #ffffff;
   border: 1px solid #cccccc;
@@ -2741,7 +2751,7 @@ input[type="button"].btn-block {
   height:20px;
   width:10px;
   background-size: 16px 5px;
-  background-position:center; 
+  background-position:center;
 }
 
 .glyphicon-font:before {
@@ -3329,7 +3339,7 @@ input[type="button"].btn-block {
 }
 
 .glyphicon-lock:before {
-  /*content: "\1f512";*/  
+  /*content: "\1f512";*/
 }
 
 .glyphicon-bell:before {
@@ -4164,7 +4174,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   z-index: 1000;
   min-height: 50px;
   margin-bottom: 20px;
-  border: 1px solid transparent;
+  /*border: 1px solid transparent;*/
 }
 
 .navbar:before,
@@ -5826,7 +5836,7 @@ body.modal-open,
 			  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
 	  background-clip: padding-box;
 	  max-width:100%;
-	  margin-left:0%;	  
+	  margin-left:0%;
 	}
 }
 
