@@ -22,15 +22,15 @@
 }
 
 .spanTitulo {
-  color:#FF149B;
+  color:#808080;
   font-family: "Helvetica";
-  font-weight:300;
+  font-weight:900;
 }
 
 .spanTexto{
   font-family: "Helvetica-Medium";
   font-weight:200;
-  }
+}
 
 .tablaletra{
 		font-size: 10px;
@@ -60,7 +60,7 @@
 }
 
 input[type=text], input[type=password] {
-   color: #FF149B;
+   color: #808080;
    height: 45px;
    font-family: "Helvetica-Medium";
    font-weight:800;
@@ -90,7 +90,7 @@ input[type=text], input[type=password] {
    font-size:28px;
    text-align: center;
    font-weight:800;
-   color: #FF149B;
+   color: #808080;
  }
 
  .LetraDrctTitulo{
@@ -129,27 +129,27 @@ input[type=text], input[type=password] {
 
  .ImaAyudaInfo{
    font-family: "Helvetica";
-   color:#FF149B;
+   color:#808080;
    font-size:25px;
    font-weight:700;
  }
 
  .divbarra{
-  background-color: #FF149B;
+   background-color: #808080;
  }
 
- .divImaDirectorio
- {
-   background-color:#FF149B;
+ .divImaDirectorio {
+   background-color:#808080;
    width:100%;
    height:80px;
  }
 
  .divImaInformacion{
-   background-color:#FF149B;
+   background-color:#808080;
    width:100%;
    height:50px;
  }
+
 input,
 select,
 textarea {
@@ -207,7 +207,7 @@ th {
     color: white !important;
     font-size: 20px !important;
     box-shadow: 5px 5px 3px #737277 !important;
-    -webkit-box-shadow: 5px 5px 3px #FF149B !important; /* Safari y Chrome*/
+    -webkit-box-shadow: 5px 5px 3px #808080 !important; /* Safari y Chrome*/
 }
 
 .btn-default:hover {
@@ -215,8 +215,8 @@ th {
     }
 
 .btn-primary {
-    background-color: #FF139B !important;
-    border-color: #FF139B !important;
+    background-color: #808080 !important;
+    border-color: #808080 !important;
     width: 110px !important;
     font-style:normal!important;
 }
@@ -289,7 +289,7 @@ td {
     font-size: 16px!important;
     text-align: justify;
     text-justify: inter-word;
-	padding:2%;
+  	padding:2%;
 }
 
 .subtit{
@@ -297,7 +297,7 @@ td {
 }
 
 .subtitulo{
-    font-family: "HelveticaNeueLTStd-BlkEx.otf" !important;
+  font-family: "HelveticaNeueLTStd-BlkEx.otf" !important;
 	font-weight:normal;
 }
 
@@ -307,7 +307,7 @@ td {
 }
 
 .Imaredes{
- width:100%!important;
+  width:100%!important;
 }
 
 .Sinbor{
@@ -325,13 +325,13 @@ td {
 
 .fa-facebook {
   background: white!important;
-  color: #FF149B  !important;
+  color: #808080  !important;
   border-radius: 8px;
 }
 
 .fa-twitter {
   background: white !important;
-  color: #FF149B  !important;
+  color: #808080  !important;
   border-radius: 8px;
 }
 
@@ -378,11 +378,12 @@ td {
     padding: 6px 0 !important;
     border-radius: 15px !important;
 	}
-    .btn-circulo:hover,
-    .btn-circulo:focus,
-    .btn-circulo:active {
-		background-image:url(..//Imagenes/imprimir3.png);
-    }
+
+  .btn-circulo:hover,
+  .btn-circulo:focus,
+  .btn-circulo:active {
+  	background-image:url(..//Imagenes/imprimir3.png);
+  }
 
 	.spanTitulo {
 		font-size: 40px;
@@ -393,12 +394,11 @@ td {
 	}
 
 	.spanTr1 {
-	font-family: "HelveticaNeueLTStd-BlkEx.otf";
-	font-weight:800;
-	font-size: 10px;
-	color: black;
+  	font-family: "HelveticaNeueLTStd-BlkEx.otf";
+  	font-weight:800;
+  	font-size: 10px;
+  	color: black;
 	}
-
 
   #divFooter {
     margin: 5px !important;
@@ -414,13 +414,12 @@ td {
     background-color: white;
   }
 
-     .botonimagen{
+  .botonimagen{
         background-image:url(..//Imagenes/bn_Directorio.png);
     }
 
-    .botonimagen1{
+  .botonimagen1{
         background-image:url(..//Imagenes/bn_informacion.png);
-
     }
 
 	.botonimagenCons{
@@ -432,16 +431,15 @@ td {
 		  background-position:center;
       background-color: white;
       background-color: white;
-
 	}
 	input.botonimagenCons:hover, .button:hover{
-	background-image:url(..//Imagenes/Consulta1.png);
-	background-repeat:no-repeat;
-	height:40px;
-	width:150px;
-	background-size: 151px 41px;
-	background-position:center;
-  background-color: white;
+  	background-image:url(..//Imagenes/Consulta1.png);
+  	background-repeat:no-repeat;
+  	height:40px;
+  	width:150px;
+  	background-size: 151px 41px;
+  	background-position:center;
+    background-color: white;
 	}
 
 	.botonimagenCambioNip{
@@ -452,7 +450,6 @@ td {
 		  background-size: 151px 41px;
 		  background-position:center;
       background-color: white;
-
 	}
 	input.botonimagenCambioNip:hover, .button:hover{
 		  background-image:url(..//Imagenes/CambioNip2.png);
@@ -465,14 +462,14 @@ td {
 	}
 
 	.textcaja{
-	 font-size: 12px;
+	  font-size: 12px;
 	}
 
 	.Icono {
-        width:30%;
+    width:30%;
 		height:30%;
-		margin-left:40%;
-    }
+		margin-left:35%;
+  }
 
 	.Textpop {
         text-align:center;
@@ -493,47 +490,43 @@ td {
 
     .btnCancelarImg{
       background-image:url(..//Imagenes/bn_cancelar1.png);
-
     }
 
     .btnAceptarImg{
       background-image:url(..//Imagenes/bn_Aceptar1.png);
-
     }
 
-
 	.contenidoLayout{
-		height:10px;
+		 height:10px;
 	}
 
 	.contenidoLayout>div[id^="pantalla"]{
-		height:10px;
+	 	height:10px;
 	}
 
 	.text1{
-        /*width:70%;
-		font-size:30px;
-		height:40px;*/
-		font-size:20px;
+      /*width:70%;
+		  font-size:30px;
+		  height:40px;*/
+    	font-size:20px;
 	    text-align:center;
-
-    }
+  }
 
 	 input[type=text], input[type=password] {
         font-size: 16px;
     }
 
 	.spanTexto{
-		font-size: 9px;
-    }
+	  	font-size: 9px;
+  }
 
 	.tablaletra{
 		font-size: 10px;
-    }
+  }
 
 	.imacirpalomita{
-	height: 30px;
-	margin-top: 15px;
+  	height: 30px;
+  	margin-top: 15px;
 	}
 
 	.divbarra{
@@ -545,15 +538,16 @@ td {
   .rowdivfoter, #altura1 {
     position: absolute;
     bottom: -450px;
-}
-.rowdivfoter, #altura {
+  }
+
+  .rowdivfoter, #altura {
     margin-top: -90px;
     position: absolute;
     bottom: -250px;
-}
+  }
 
 	.imaheader{
-			 height: 40px;
+			 height: auto;
 			 margin-top: 10px;
 			 width:60%;
 	}
@@ -565,7 +559,9 @@ td {
 	}
 
 	.Load{
-	width:50%;
+    -webkit-filter: invert(20%) grayscale(1);
+    filter: invert(20%) grayscale(1);
+	  width:50%;
 	}
 
 	.Reloj{
@@ -573,11 +569,11 @@ td {
 	}
 
 	.letra{
-	 font-family: "HelveticaNeueLTStd-BlkEx.otf";
-	 font-size:14px;
-	 font-weight: bold;
-	 margin:22px;
-	 margin-top:-20px;
+  	 font-family: "HelveticaNeueLTStd-BlkEx.otf";
+  	 font-size:14px;
+  	 font-weight: bold;
+  	 margin:22px;
+  	 margin-top:-20px;
 	}
 
 	p {
@@ -589,7 +585,6 @@ td {
 		width: 90% !important;
 		margin-left: 5%;
 		height: 90%!important;
-
 	}
 
 	.spanLoading {
@@ -597,11 +592,11 @@ td {
 	}
 
 	.Letratabla{
-	 font-size:16px;
+	   font-size:16px;
 	}
 
-.LetraDrctTitulo{
-		font-size:16px;
+  .LetraDrctTitulo{
+	  	font-size:16px;
 	}
 
 	.LetraDrctSubTitulo{
@@ -621,8 +616,7 @@ td {
 		font-size:20px;
 	}
 
-	.divImaDirectorio
-	{
+	.divImaDirectorio	{
 		width:100%;
 		height:80px;
 	}
@@ -660,8 +654,8 @@ td {
 	}
 
 	.ImaInfo{
-	width:15%!important;
-	vertical-align: bottom;
+  	width:15%!important;
+  	vertical-align: bottom;
 	}
 
 	.ImaAyudaInfo{
@@ -677,7 +671,6 @@ td {
   	padding-bottom: 50px;
   	font-weight:600;
   }
-
 }
 
 @media screen and (min-width: 400px) {
@@ -715,23 +708,24 @@ td {
 	}
 
 	.btn-circulo {
-    background-image:url(..//Imagenes/imprimir2.png);
-    background-repeat:no-repeat;
-    background-size: 30px 26px;
-    background-position:center;
-    width: 26px !important;
-    height: 26px !important;
-    text-align: center !important;
-    padding: 6px 0 !important;
-    font-size: 12px !important;
-    line-height: 1.42 !important;
-    border-radius: 15px !important;
-	}
-    .btn-circulo:hover,
-    .btn-circulo:focus,
-    .btn-circulo:active {
-		background-image:url(..//Imagenes/imprimir3.png);
-    }
+      background-image:url(..//Imagenes/imprimir2.png);
+      background-repeat:no-repeat;
+      background-size: 30px 26px;
+      background-position:center;
+      width: 26px !important;
+      height: 26px !important;
+      text-align: center !important;
+      padding: 6px 0 !important;
+      font-size: 12px !important;
+      line-height: 1.42 !important;
+      border-radius: 15px !important;
+	 }
+
+  .btn-circulo:hover,
+  .btn-circulo:focus,
+  .btn-circulo:active {
+	   background-image:url(..//Imagenes/imprimir3.png);
+   }
 
 	.spanTitulo {
 		font-size: 40px;
@@ -742,10 +736,10 @@ td {
 	}
 
 	.spanTr1   {
-	font-family: "HelveticaNeueLTStd-BlkEx.otf";
-	font-weight:800;
-	font-size: 10px;
-	color: black;
+  	font-family: "HelveticaNeueLTStd-BlkEx.otf";
+  	font-weight:800;
+  	font-size: 10px;
+  	color: black;
 	}
 
 	.#divFooter {
@@ -767,17 +761,15 @@ td {
 
   .botonimagen1{
   		  background-image:url(..//Imagenes/bn_informacion.png);
-
   }
 
 	input.botonimagenCons:hover, .button:hover{
-	background-image:url(..//Imagenes/Consulta1.png);
-	background-repeat:no-repeat;
-	height:40px;
-	width:150px;
-	background-size: 151px 41px;
-	background-position:center;
-
+  	background-image:url(..//Imagenes/Consulta1.png);
+  	background-repeat:no-repeat;
+  	height:40px;
+  	width:150px;
+  	background-size: 151px 41px;
+  	background-position:center;
 	}
 
 	.botonimagenCambioNip{
@@ -787,7 +779,6 @@ td {
 		  width:150px;
 		  background-size: 151px 41px;
 		  background-position:center;
-
 	}
 	input.botonimagenCambioNip:hover, .button:hover{
 		  background-image:url(..//Imagenes/CambioNip2.png);
@@ -796,18 +787,17 @@ td {
 		  width:150px;
 		  background-size: 151px 41px;
 		  background-position:center;
-
 	}
 
 	.textcaja{
-	 font-size: 12px;
+	  font-size: 12px;
 	}
 
 	.Icono {
-        width:30%;
+    width:30%;
 		height:30%;
-		margin-left:40%;
-    }
+		margin-left:35%;
+   }
 
 	.Textpop {
         text-align:center;
@@ -827,12 +817,10 @@ td {
 
     .btnCancelarImg{
       background-image:url(..//Imagenes/bn_cancelar1.png);
-
     }
 
     .btnAceptarImg{
       background-image:url(..//Imagenes/bn_Aceptar1.png);
-
     }
 
 	.contenidoLayout{
@@ -853,27 +841,27 @@ td {
     }
 
 	 input[type=text], input[type=password] {
-		 font-size: 18px;
+		  font-size: 18px;
     }
 
 	.spanTexto{
-		font-size: 9px;
-    }
+		 font-size: 9px;
+  }
 
 	.tablaletra{
-		font-size: 10px;
-    }
+		 font-size: 10px;
+  }
 
 	.imacirpalomita{
-	height: 30px;
-	margin-top: 15px;
+  	height: 30px;
+  	margin-top: 15px;
 	}
 
 	.divbarra{
-	  padding:.30em;
-	  margin-top:5px;
-	  width:100%;
-	}
+  	  padding:.30em;
+  	  margin-top:5px;
+  	  width:100%;
+	 }
 
   .rowdivfoter,#altura{
     margin-top: -90px;
@@ -887,7 +875,7 @@ td {
 	}
 
 	.imaheader{
-			 height: 40px;
+			 height: auto;
 			 margin-top: 10px;
 			 width:60%;
 	}
@@ -899,7 +887,9 @@ td {
 	}
 
 	.Load{
-	width:50%;
+    -webkit-filter: invert(20%) grayscale(1);
+    filter: invert(20%) grayscale(1);
+  	width:50%;
 	}
 
 	.Reloj{
@@ -907,11 +897,11 @@ td {
 	}
 
 	.letra{
-	 font-family: "HelveticaNeueLTStd-BlkEx.otf";
-	 font-size:14px;
-	 font-weight: bold;
-	 margin:22px;
-	 margin-top:-20px;
+  	 font-family: "HelveticaNeueLTStd-BlkEx.otf";
+  	 font-size:14px;
+  	 font-weight: bold;
+  	 margin:22px;
+  	 margin-top:-20px;
 	}
 
 	p {
@@ -923,7 +913,6 @@ td {
 		width: 90% !important;
 		margin-left: 5%;
 		height: 90%!important;
-
 	}
 
 	.spanLoading {
@@ -931,11 +920,11 @@ td {
 	}
 
 	.Letratabla{
-	 font-size:16px;
-	}
+	  font-size:16px;
+ 	}
 
   .LetraDrctTitulo{
-		font-size:16px;
+	  font-size:16px;
 	}
 
 	.LetraDrctSubTitulo{
@@ -993,13 +982,13 @@ td {
 	}
 
 	.ImaInfo{
-	width:15%!important;
-	vertical-align: bottom;
+	   width:15%!important;
+	   vertical-align: bottom;
 	}
 
 	.ImaAyudaInfo{
-	font-size:30px;
-	}
+  	 font-size:30px;
+	 }
 
   .PimaInfo{
   	font-size: 10px;
@@ -1092,11 +1081,11 @@ td {
     background-color: white;
   }
 
-  	 .botonimagen{
+  .botonimagen{
   		  background-image:url(..//Imagenes/bn_Directorio.png);
-  	}
+  }
 
-    .botonimagen1{
+  .botonimagen1{
   		  background-image:url(..//Imagenes/bn_informacion.png);
 
   	}
@@ -1114,14 +1103,13 @@ td {
 		font-family: "HelveticaNeueLTStd-BlkEx.otf";
 	}*/
 
-		.botonimagenCons{
-      background-image:url(..//Imagenes/Consulta.png);
+	.botonimagenCons{
+    background-image:url(..//Imagenes/Consulta.png);
 	  background-repeat:no-repeat;
 	  height:60px;
 	  width:250px;
 	  background-size: 251px 61px;
 	  background-position:center;
-
   }
 	input.botonimagenCons:hover, .button:hover{
     background-image:url(..//Imagenes/Consulta1.png);
@@ -1151,21 +1139,21 @@ td {
 	}
 
 	.textcaja{
-	 font-size: 20px;
+	  font-size: 20px;
 	}
 
 	.Icono {
        /* width:350%;
-		height:100%;*/
-		margin-left:35%;
-		margin-top:10px;
+		     height:100%;*/
+  		margin-left:35%;
+  		margin-top:10px;
     }
 
 	.Textpop {
         text-align:center;
     }
 
-    .btns{
+  .btns{
       width: 143px;
       height: 45px;
       background-repeat: no-repeat;
@@ -1177,14 +1165,12 @@ td {
       border-radius: 8px;
     }
 
-    .btnCancelarImg{
+  .btnCancelarImg{
       background-image:url(..//Imagenes/bn_cancelar1.png);
-
     }
 
-    .btnAceptarImg{
+  .btnAceptarImg{
       background-image:url(..//Imagenes/bn_Aceptar1.png);
-
     }
 
 	.contenidoLayout{
@@ -1192,32 +1178,32 @@ td {
 	}
 
 	.contenidoLayout>div[id^="pantalla"]{
-		height:100px;
+		 height:100px;
 	}
 
 	.text1{
-        width:100%;
-		font-size:30px;
+      width:100%;
+	  	font-size:30px;
 	    text-align:center;
-    }
+  }
 
 	 input[type=text], input[type=password] {
    		font-size: 20px;
     }
 
 	.spanTexto{
-		font-size: 16px;
+		 font-size: 16px;
     }
 
 	.tablaletra{
-		font-size: 12px;
-		width:70%;
-		margin-top:50px;
-    }
+	  font-size: 12px;
+	  width:70%;
+		 margin-top:50px;
+  }
 
 	.imacirpalomita{
-	height: 70px;
-	margin-top: 15px;
+  	height: 70px;
+	  margin-top: 15px;
 	}
 
 	.divbarra{
@@ -1226,7 +1212,7 @@ td {
 	  width:100%;
 	}
 
-	.rowdivfoter,#altura{
+  .rowdivfoter,#altura{
     margin-top: -90px;
     position: absolute;
     bottom: -80px;
@@ -1234,11 +1220,11 @@ td {
 
 	.rowdivfoter,#altura1{
     position: absolute;
-    bottom: -450px;
+    bottom: -570px;
 	}
 
 	.imaheader{
-			 height: 60px;
+			 height: auto;
 			 height: 60px;
 			 margin-top: 10px;
 			 width:70%;
@@ -1251,6 +1237,8 @@ td {
 	}
 
 	.Load{
+    -webkit-filter: invert(20%) grayscale(1);
+    filter: invert(20%) grayscale(1);
 		width:50%;
 	}
 
@@ -1301,8 +1289,7 @@ td {
 		font-size:40px;
 	}
 
-	.divImaDirectorio
-	{
+	.divImaDirectorio{
 		width:100%;
 		height:80px;
 	}
@@ -1336,17 +1323,17 @@ td {
 	}
 
   .textPrepa{
-		font-size: 14px;
+	  	font-size: 14px;
 	}
 
 	.ImaInfo{
-	width:15%!important;
-	vertical-align: bottom;
+  	width:15%!important;
+  	vertical-align: bottom;
 	}
 
 	.ImaAyudaInfo{
-	font-size:50px;
-	}
+    	font-size:50px;
+  }
 
   .PimaInfo{
   	font-size: 18px;
@@ -1403,7 +1390,7 @@ td {
   .btn-circulo:hover,
   .btn-circulo:focus,
   .btn-circulo:active {
-		background-image:url(..//Imagenes/imprimir3.png);
+	 	background-image:url(..//Imagenes/imprimir3.png);
   }
 
 	.spanTitulo {
@@ -1421,26 +1408,25 @@ td {
 		color: black;
 	}
 
-#divFooter {
-  margin: 5px !important;
-}
+   #divFooter {
+     margin: 5px !important;
+   }
 
-#divFooter button{
-  height:65px;
-  width:200px;
-  border-radius: 8px;
-  margin-top:20px;
-  background-repeat:no-repeat;
-  background-size: cover;
-}
+   #divFooter button{
+      height:65px;
+      width:200px;
+      border-radius: 8px;
+      margin-top:20px;
+      background-repeat:no-repeat;
+      background-size: cover;
+   }
 
-	 .botonimagen{
+	.botonimagen{
 		  background-image:url(..//Imagenes/bn_Directorio.png);
-	}
+  	}
 
   .botonimagen1{
 		  background-image:url(..//Imagenes/bn_informacion.png);
-
 	}
 
 	.pImagenfotter1{
@@ -1464,14 +1450,15 @@ td {
   	  background-size: 251px 61px;
   	  background-position:center;
     }
+
     input.botonimagenCons:hover, .button:hover{
-  	  background-image:url(..//Imagenes/Consulta1.png);
-  	  background-repeat:no-repeat;
-  	  height:60px;
-  	  width:250px;
-  	  background-size: 251px 61px;
-  	  background-position:center;
-	 }
+    	  background-image:url(..//Imagenes/Consulta1.png);
+    	  background-repeat:no-repeat;
+    	  height:60px;
+    	  width:250px;
+    	  background-size: 251px 61px;
+    	  background-position:center;
+	  }
 
 	.botonimagenCambioNip{
 		  background-image:url(..//Imagenes/CambioNip1.png);
@@ -1481,6 +1468,7 @@ td {
 		  background-size: 251px 61px;
 		  background-position:center;
 	}
+
 	input.botonimagenCambioNip:hover, .button:hover{
 		  background-image:url(..//Imagenes/CambioNip2.png);
 		  background-repeat:no-repeat;
@@ -1496,17 +1484,17 @@ td {
 	}
 
 	.Icono {
-    width:50%;
-		height:100%;
-		margin-left:40%;
-    }
+     width:50%;
+		 height:100%;
+		 margin-left:40%;
+  }
 
 	.Textpop {
         text-align:center;
     }
 
 	.contenidoLayout{
-		height:500px;
+	  	height:500px;
 	}
 
 	.contenidoLayout>div[id^="pantalla"]{
@@ -1535,8 +1523,7 @@ td {
 
   }
 
-	.pbtncolorCan
-	{
+	.pbtncolorCan	{
 		color: white;
 		background-color: black;
 		width: 100px;
@@ -1563,8 +1550,8 @@ td {
 	}
 
 	.text1{
-        width:100%;
-		font-size:30px;
+      width:100%;
+	  	font-size:30px;
 	    text-align:center;
     }
 
@@ -1586,8 +1573,8 @@ td {
     }
 
 	.imacirpalomita{
-	height: 70px;
-	margin-top: 15px;
+ 	   height: 70px;
+	   margin-top: 15px;
 	}
 
 	.divbarra{
@@ -1608,7 +1595,7 @@ td {
 	}
 
 	.imaheader{
-			 height: 70px;
+			 height: auto;
 			 margin-top: 15px;
 			 /*width:100%;*/
 	}
@@ -1620,8 +1607,10 @@ td {
 	}
 
 	.Load{
-	width:30%;
- }
+    -webkit-filter: invert(20%) grayscale(1);
+    filter: invert(20%) grayscale(1);
+	  width:30%;
+  }
 
 	.Reloj{
 		width:6%;
@@ -1700,16 +1689,16 @@ td {
 	}
 
   .textPrepa{
-		font-size: 14px;
+	  	font-size: 14px;
 	}
 
 	.ImaInfo{
-	width:15%!important;
-	vertical-align: bottom;
+  	 width:15%!important;
+	   vertical-align: bottom;
 	}
 
 	.ImaAyudaInfo{
-	font-size:50px;
+	  font-size:50px;
 	}
 
   .PimaInfo{

@@ -10,7 +10,8 @@ var Constantes = (function () {
     _req_contenType = 'application/json; charset=UTF-8';
     _req_Accept = 'application/json; charset=UTF-8';
     _timeOut = 20000; // 5 segundos: 5000
-    _server = 'http://www.tkinova.com/demofidegarWS/';
+    _server = 'http://www.tkinova.com/fidegar/';
+    //_server = 'http://www.tkinova.com/demofidegarWS/';
     //_server = 'http://192.168.0.128/WAFidegar/WSFidegar.svc/'
     _tiempoPantalla = 3000; // 3 segundos
     _meses = ['-', 'ENERO', 'FEBRERO', 'MARZO', 'ABRIL', 'MAYO', 'JUNIO',
@@ -31,11 +32,18 @@ var Constantes = (function () {
 });
 
 var Recursos = (function () {
-    _url_Login = 'app/login';
-    _url_GetPeriodos = 'app/obten-periodos/';
-    _url_Reset = 'app/reset';
-    _url_ValidaRespuesta = 'app/valida-respuesta';
-    _url_Configuracion = 'app/obten-configuracion';
+
+    _url_Login = 'fidegar-api/app/login';
+    _url_GetPeriodos = 'fidegar-api/app/obten-periodos/';
+    _url_Reset = 'fidegar-api/app/reset';
+    _url_ValidaRespuesta = 'fidegar-api/app/valida-respuesta';
+    _url_Configuracion = 'fidegar-api/app/obten-configuracion';
+
+    //_url_Login = 'app/login';
+    //_url_GetPeriodos = 'app/obten-periodos/';
+    //_url_Reset = 'app/reset';
+    //_url_ValidaRespuesta = 'app/valida-respuesta';
+    //_url_Configuracion = 'app/obten-configuracion';
 
     return {
         getUrl_Login: function () { return _url_Login; },
